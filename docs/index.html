@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NmG Preek Visualisatie</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-secondary: #64748b;
+            --highlight-nmg: #0f172a;
+            --gloss-bg: #e2e8f0;
+            --gloss-text: #475569;
+            --border-color: #e2e8f0;
+            --accent-instruction: #f59e0b;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header & Upload */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 1.5rem;
+            color: var(--text-main);
+        }
+
+        .file-upload-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .file-upload-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        .toggle-container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #cbd5e1;
+            transition: .4s;
+            border-radius: 24px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: var(--primary-color);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+
+        /* Compact Mode Logic */
+        .compact-mode .original-sentence,
+        .compact-mode .gloss-container,
+        .compact-mode .instructions-grid,
+        .compact-mode .card-header,
+        .compact-mode #metadata-section,
+        .compact-mode #spatial-context {
+            display: none !important;
+        }
+
+        .compact-mode .card {
+            padding: 12px 20px;
+            margin-bottom: 12px;
+        }
+
+        .compact-mode .nmg-sentence {
+            margin-bottom: 0;
+        }
+
+        /* Metadata Section */
+        #metadata-section {
+            display: none;
+            background: var(--card-bg);
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);
+        }
+
+        .meta-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
+        .meta-summary { color: var(--text-secondary); font-style: italic; }
+
+        /* Spatial Context Box */
+        #spatial-context {
+            display: none;
+            background: #f0f9ff;
+            border: 1px solid #bae6fd;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+        #spatial-context h3 { margin-top: 0; color: #0369a1; }
+
+        /* Sentence Cards */
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);
+            border: 1px solid var(--border-color);
+            transition: transform 0.1s;
+        }
+
+        .card:hover {
+            border-color: #cbd5e1;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .nmg-sentence {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--highlight-nmg);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .original-sentence {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .gloss-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+            padding-top: 16px;
+            border-top: 1px dashed var(--border-color);
+        }
+
+        .gloss {
+            background: var(--gloss-bg);
+            color: var(--gloss-text);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .gloss.missing {
+            background: #fee2e2;
+            color: #991b1b;
+            text-decoration: line-through;
+        }
+
+        /* Instructions Grid */
+        .instructions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            font-size: 0.9rem;
+            background: #f8fafc;
+            padding: 16px;
+            border-radius: 8px;
+        }
+
+        .instruction-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .instruction-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #94a3b8;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .instruction-value {
+            color: #334155;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-secondary);
+            margin-top: 60px;
+        }
+
+        /* Narrative Restructuring Badge */
+        .narrative-badge {
+            background: #dbeafe;
+            color: #1e40af;
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>NmG Preek Viewer</h1>
+        <label class="file-upload-btn">
+            📂 Laad JSON Bestand
+            <input type="file" id="fileInput" accept=".json">
+        </label>
+
+        <div class="toggle-container">
+            <span>Details tonen</span>
+            <label class="switch">
+                <input type="checkbox" id="compactToggle">
+                <span class="slider"></span>
+            </label>
+            <span>Alleen NmG</span>
+        </div>
+    </header>
+
+    <div id="metadata-section">
+        <!-- Metadata comes here -->
+    </div>
+
+    <div id="spatial-context">
+        <!-- Spatial info comes here -->
+    </div>
+
+    <div id="content-area">
+        <div class="empty-state">
+            Selecteer een JSON bestand om te beginnen.<br>
+            (Bijvoorbeeld: <code>output/preek_nmg_....json</code>)
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('fileInput').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                const data = JSON.parse(e.target.result);
+                renderPreek(data);
+            } catch (error) {
+                alert('Fout bij het lezen van JSON: ' + error.message);
+            }
+        };
+        reader.readAsText(file);
+    });
+
+    document.getElementById('compactToggle').addEventListener('change', function(e) {
+        if (e.target.checked) {
+            document.body.classList.add('compact-mode');
+        } else {
+            document.body.classList.remove('compact-mode');
+        }
+    });
+
+    function renderPreek(data) {
+        const contentArea = document.getElementById('content-area');
+        const metaSection = document.getElementById('metadata-section');
+        const spatialSection = document.getElementById('spatial-context');
+
+        // Clear previous content
+        contentArea.innerHTML = '';
+
+        // 1. Render Metadata
+        metaSection.style.display = 'block';
+        metaSection.innerHTML = `
+            <div class="meta-title">${data.metadata.titel || 'Geen titel'}</div>
+            <div class="meta-summary">${data.metadata.samenvatting || ''}</div>
+            <div style="margin-top:10px; font-size: 0.85rem; color: #64748b;">
+                Zinnen: ${data.metadata.totaal_zinnen} • Datum: ${data.metadata.datum_conversie}
+            </div>
+        `;
+
+        // 2. Render Spatial Context (if available)
+        if (data.ruimtelijke_opbouw) {
+            spatialSection.style.display = 'block';
+            let locs = data.ruimtelijke_opbouw.locaties.map(l => `<strong>${l.naam}</strong> (${l.locus})`).join(' • ');
+            spatialSection.innerHTML = `
+                <h3>📍 Ruimtelijke Opbouw</h3>
+                <p>${data.ruimtelijke_opbouw.beschrijving}</p>
+                <p style="margin-top:8px; font-size:0.85rem; color:#475569;">${locs}</p>
+            `;
+        }
+
+        // 3. Render Sentences
+        data.zinnen.forEach(zin => {
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            // Glosses HTML
+            let glossesHtml = zin.glossen.map(g => `<span class="gloss">${g}</span>`).join('');
+            
+            // Add missing glosses visually if needed (though usually not in the main gloss list)
+            // if (zin.glossen_niet_gevonden && zin.glossen_niet_gevonden.length > 0) { ... }
+
+            // Instructions HTML
+            let instructionsHtml = '';
+            const inst = zin.nmg_instructies;
+            if (inst) {
+                if (inst.lokalisatie) instructionsHtml += createInstruction('Lokalisatie', inst.lokalisatie);
+                if (inst.classifiers) instructionsHtml += createInstruction('Classifiers', inst.classifiers);
+                if (inst.non_manueel) instructionsHtml += createInstruction('Non-manueel (Mimiek)', inst.non_manueel);
+                if (inst.tempo_pauzes) instructionsHtml += createInstruction('Tempo/Pauzes', inst.tempo_pauzes);
+            }
+            if (zin.toelichting) {
+                instructionsHtml += createInstruction('Toelichting', zin.toelichting, true);
+            }
+
+            // Narrative Badge
+            let badge = '';
+            if (zin.narratieve_herstructurering && zin.narratieve_herstructurering.toegepast) {
+                badge = `<span class="narrative-badge">${zin.narratieve_herstructurering.type || 'HERSTRUCTURERING'}</span>`;
+            }
+
+            card.innerHTML = `
+                <div class="card-header">
+                    <span>Zin ${zin.zin_nummer}</span>
+                    <span>${badge}</span>
+                </div>
+                
+                <div class="nmg-sentence">${zin.nmg_versie}</div>
+                <div class="original-sentence">${zin.origineel}</div>
+
+                <div class="gloss-container">
+                    ${glossesHtml}
+                </div>
+
+                <div class="instructions-grid">
+                    ${instructionsHtml}
+                </div>
+            `;
+            contentArea.appendChild(card);
+        });
+    }
+
+    function createInstruction(label, value, isFullWidth = false) {
+        if (!value) return '';
+        const style = isFullWidth ? 'grid-column: 1 / -1;' : '';
+        return `
+            <div class="instruction-item" style="${style}">
+                <span class="instruction-label">${label}</span>
+                <span class="instruction-value">${value}</span>
+            </div>
+        `;
+    }
+</script>
+
+</body>
+</html>
