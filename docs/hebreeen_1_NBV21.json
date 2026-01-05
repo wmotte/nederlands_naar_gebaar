@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "titel": "Hebreeën 1:1-13 - De verhevenheid van de Zoon",
+    "datum_conversie": "2024-05-22",
+    "totaal_zinnen": 13,
+    "samenvatting": "De conversie focust op het contrast tussen het verleden (profeten) en het nu (de Zoon). Er is strikt gebruikgemaakt van de ruimtelijke conventies (God rechtsboven, vijanden linksonder) en abstracte begrippen zoals 'scepter' en 'erfgenaam' zijn geconcretiseerd voor visuele helderheid."
+  },
+  "zinnen": [
+    {
+      "zin_nummer": 1,
+      "origineel": "[Zin 1] Op velerlei wijzen en langs velerlei wegen heeft God in het verleden tot de voorouders gesproken door de profeten; nu, aan het einde van de tijd, heeft Hij tot ons gesproken door zijn Zoon, die Hij heeft aangesteld als erfgenaam van alles wat bestaat, en door wie Hij het heelal geschapen heeft.",
+      "nmg_versie": "Vroeger sprak God op veel manieren tot de voorouders. Dat deed Hij via de profeten. Maar nu, aan het einde van de tijd, spreekt Hij tot ons via zijn Zoon. God heeft de Zoon erfgenaam gemaakt van alles. Door Hem heeft God ook het heelal gemaakt.",
+      "glossen": [
+        "VROEGER",
+        "SPREKEN",
+        "GOD",
+        "VEEL",
+        "MANIER",
+        "VOOROUDERS",
+        "VIA",
+        "PROFETEN",
+        "MAAR",
+        "NU",
+        "EINDE",
+        "TIJD",
+        "SPREKEN",
+        "WIJ",
+        "VIA",
+        "ZOON",
+        "GOD",
+        "ZOON",
+        "ERFGENAAM",
+        "MAKEN",
+        "ALLES",
+        "VIA",
+        "HIJ",
+        "GOD",
+        "OOK",
+        "HEELAL",
+        "MAKEN"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": true,
+        "type": "TIJD-WIE-WAT",
+        "toelichting": "Eerst wordt het tijdsframe (vroeger vs nu) neergezet, dan de personen (profeten vs Zoon), dan de actie (spreken/scheppen)."
+      },
+      "nmg_instructies": {
+        "lokalisatie": "God rechtsboven (IX-3a). Profeten links (IX-3b). Zoon rechts naast God (IX-3c).",
+        "classifiers": null,
+        "rolwisseling": null,
+        "tempo_pauzes": "Lange pauze tussen 'vroeger' en 'nu' om het contrast te markeren.",
+        "non_manueel": "Blik naar achteren bij 'vroeger', blik naar voren bij 'nu'."
+      },
+      "toelichting": "Lange zin opgebroken in vijf kortere zinnen voor een rustig gebarentempo."
+    },
+    {
+      "zin_nummer": 2,
+      "origineel": "[Zin 2] Hij straalt Gods luister uit, Hij is zijn evenbeeld, met zijn machtig woord draagt Hij alles wat bestaat.",
+      "nmg_versie": "De Zoon laat de glans van God zien. Hij lijkt precies op God. Met zijn machtige woord houdt Hij alles in stand.",
+      "glossen": [
+        "ZOON",
+        "LATEN-ZIEN",
+        "GLANS",
+        "GOD",
+        "LIJKEN",
+        "PRECIES",
+        "GOD",
+        "MACHTIG",
+        "WOORD",
+        "HOUDEN",
+        "ALLES",
+        "STAND"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Wijs bij 'glans' van God (rechtsboven) naar de Zoon.",
+        "classifiers": "Gebruik CL:B (vlakke handen) bij 'alles in stand houden' alsof je de wereld ondersteunt.",
+        "rolwisseling": null,
+        "tempo_pauzes": "Krachtige pauze na 'machtig woord'.",
+        "non_manueel": "Intense blik bij 'machtig'."
+      },
+      "toelichting": "'Luister' vertaald naar 'glans' en 'draagt' naar 'in stand houden' voor visuele duidelijkheid."
+    },
+    {
+      "zin_nummer": 3,
+      "origineel": "[Zin 3] Hij heeft, na de reiniging van de zonden te hebben voltrokken, plaatsgenomen aan de rechterzijde van Gods hemelse majesteit, ver verheven boven de engelen omdat Hij een eerbiedwaardiger naam geërfd heeft dan zij.",
+      "nmg_versie": "Hij heeft onze zonden schoongemaakt. Daarna ging Hij zitten aan de rechterkant van God in de hemel. Hij is veel belangrijker dan de engelen. Waarom? Hij heeft een naam gekregen die veel mooier is dan die van hen.",
+      "glossen": [
+        "HIJ",
+        "ZONDE",
+        "SCHOONMAKEN",
+        "DAARNA",
+        "GAAN-ZITTEN",
+        "RECHTS",
+        "GOD",
+        "HEMEL",
+        "BELANGRIJK",
+        "MEER-DAN",
+        "ENGELEN",
+        "WAAROM",
+        "NAAM",
+        "KRIJGEN",
+        "MOOI",
+        "MEER-DAN",
+        "ZIJ"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": true,
+        "type": "WAT-WAAR-WIE",
+        "toelichting": "Eerst de reiniging (actie), dan de positie in de hemel, dan de vergelijking met engelen."
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Zonde linksonder (conventie). God rechtsboven. Engelen lager dan de Zoon lokaliseren.",
+        "classifiers": null,
+        "rolwisseling": null,
+        "tempo_pauzes": "Pauze na 'schoongemaakt'.",
+        "non_manueel": "Vragende wenkbrauwen bij 'Waarom?'."
+      },
+      "toelichting": "Abstracte 'reiniging' geconcretiseerd naar 'schoongemaakt'. 'Eerbiedwaardiger' vereenvoudigd naar 'mooier/belangrijker'."
+    },
+    {
+      "zin_nummer": 4,
+      "origineel": "[Zin 4] Tegen wie van de engelen heeft God immers ooit gezegd: ‘Jij bent mijn Zoon, Ik heb Je vandaag verwekt’?",
+      "nmg_versie": "God heeft nooit tegen een engel gezegd: 'Jij bent mijn Zoon. Ik ben vandaag jouw Vader geworden.'",
+      "glossen": [
+        "GOD",
+        "NOOIT",
+        "TEGEN",
+        "ENGEL",
+        "ZEGGEN",
+        "JIJ",
+        "ZOON",
+        "IK",
+        "VANDAAG",
+        "VADER",
+        "WORDEN"
+      ],
+      "glossen_niet_gevonden": [
+        "verwekt"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "God (rechtsboven) spreekt naar de plek van de engelen (midden).",
+        "classifiers": null,
+        "rolwisseling": "Mini-shift: draai licht naar rechtsboven bij het citeren van God.",
+        "tempo_pauzes": "Pauze voor de directe rede.",
+        "non_manueel": "Hoofdschudden bij 'nooit'."
+      },
+      "toelichting": "Retorische vraag omgezet naar een stellende ontkenning voor meer directheid in NmG. 'Verwekt' vertaald naar 'Vader geworden'."
+    },
+    {
+      "zin_nummer": 5,
+      "origineel": "[Zin 5] Of: ‘Ik zal een vader voor Hem zijn, en Hij voor Mij een zoon’?",
+      "nmg_versie": "God zei ook niet over een engel: 'Ik zal een Vader voor Hem zijn, en Hij zal voor Mij een Zoon zijn.'",
+      "glossen": [
+        "GOD",
+        "ZEGGEN",
+        "OOK",
+        "NIET",
+        "OVER",
+        "ENGEL",
+        "IK",
+        "VADER",
+        "HIJ",
+        "ZOON"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Houd loci voor Vader en Zoon consistent.",
+        "classifiers": null,
+        "rolwisseling": "Mini-shift naar rechtsboven.",
+        "tempo_pauzes": null,
+        "non_manueel": "Ontkennend hoofd bij 'ook niet'."
+      },
+      "toelichting": "Parallelle structuur met zin 4 behouden."
+    },
+    {
+      "zin_nummer": 6,
+      "origineel": "[Zin 6] En verder zegt Hij als Hij de eerstgeborene de wereld binnenleidt: ‘Laten al Gods engelen Hem aanbidden.’",
+      "nmg_versie": "Wanneer God de Zoon naar de wereld brengt, zegt Hij: 'Alle engelen van God moeten Hem aanbidden.'",
+      "glossen": [
+        "WANNEER",
+        "GOD",
+        "ZOON",
+        "NAAR",
+        "WERELD",
+        "BRENGEN",
+        "ZEGGEN",
+        "ALLE",
+        "ENGELEN",
+        "GOD",
+        "MOETEN",
+        "AANBIDDEN"
+      ],
+      "glossen_niet_gevonden": [
+        "eerstgeborene"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": true,
+        "type": "WAAR-WIE-WAT",
+        "toelichting": "Eerst de setting (wereld), dan de actie (brengen), dan het bevel (aanbidden)."
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Wereld beneden lokaliseren. Engelen buigen richting de Zoon.",
+        "classifiers": "CL:V (persoon) beweegt van boven naar de wereld.",
+        "rolwisseling": "Mini-shift bij het bevel van God.",
+        "tempo_pauzes": "Pauze na 'wereld brengt'.",
+        "non_manueel": "Eerbiedige blik bij 'aanbidden'."
+      },
+      "toelichting": "'Eerstgeborene' vervangen door 'Zoon' voor consistentie. 'Binnenleidt' visueel gemaakt met 'brengen'."
+    },
+    {
+      "zin_nummer": 7,
+      "origineel": "[Zin 7] Over de engelen zegt God: ‘Hij maakt zijn engelen tot windvlagen, en zijn dienaren tot een vlammend vuur.’",
+      "nmg_versie": "Over de engelen zegt God: 'Ik maak van mijn engelen windvlagen. Mijn dienaren maak ik als een vlammend vuur.'",
+      "glossen": [
+        "OVER",
+        "ENGELEN",
+        "ZEGGEN",
+        "GOD",
+        "MAKEN",
+        "ENGELEN",
+        "WIND",
+        "DIENAREN",
+        "VLAM",
+        "VUUR"
+      ],
+      "glossen_niet_gevonden": [
+        "windvlagen"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Engelen in de ruimte om je heen.",
+        "classifiers": "Gebruik beide handen voor 'wind' (wapperende beweging) en 'vlammend vuur' (omhoog bewegende vingers).",
+        "rolwisseling": "Mini-shift naar rechtsboven.",
+        "tempo_pauzes": "Pauze tussen 'windvlagen' en 'vuur'.",
+        "non_manueel": "Krachtige expressie bij 'wind' en 'vuur'."
+      },
+      "toelichting": "Metaforen visueel ondersteund met classifiers voor wind en vuur."
+    },
+    {
+      "zin_nummer": 8,
+      "origineel": "[Zin 8] Maar tegen de Zoon zegt Hij: ‘God, uw troon houdt stand tot in alle eeuwigheid, en de scepter van het recht is de scepter van uw koningschap.",
+      "nmg_versie": "Maar tegen de Zoon zegt God: 'Uw troon blijft voor altijd staan. U regeert eerlijk en rechtvaardig.'",
+      "glossen": [
+        "MAAR",
+        "TEGEN",
+        "ZOON",
+        "ZEGGEN",
+        "GOD",
+        "TROON",
+        "BLIJVEN",
+        "ALTIJD",
+        "STAAN",
+        "REGEREN",
+        "EERLIJK",
+        "RECHTVAARDIG"
+      ],
+      "glossen_niet_gevonden": [
+        "scepter",
+        "koningschap"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Troon rechtsboven (bij de Zoon).",
+        "classifiers": "CL:S (vuist) voor het vasthouden van een scepter/staf tijdens 'regeert'.",
+        "rolwisseling": "Mini-shift naar rechtsboven.",
+        "tempo_pauzes": "Pauze na 'altijd staan'.",
+        "non_manueel": "Knik bij 'rechtvaardig'."
+      },
+      "toelichting": "'Scepter' en 'koningschap' geconcretiseerd naar 'regeren'. 'Houdt stand' vertaald naar 'blijft staan'."
+    },
+    {
+      "zin_nummer": 9,
+      "origineel": "[Zin 9] Gerechtigheid hebt U liefgehad en onrecht gehaat; daarom, God, heeft uw God U gezalfd met vreugdeolie, als enige uit uw kring.’",
+      "nmg_versie": "U houdt van wat goed is. Maar U haat het onrecht. Daarom heeft God U uitgekozen. Hij heeft U heel blij gemaakt, meer dan alle anderen.",
+      "glossen": [
+        "HOUDEN-VAN",
+        "GOED",
+        "MAAR",
+        "HATEN",
+        "ONRECHT",
+        "DAAROM",
+        "GOD",
+        "UITKIEZEN",
+        "BLIJ",
+        "MAKEN",
+        "MEER-DAN",
+        "ALLE",
+        "ANDEREN"
+      ],
+      "glossen_niet_gevonden": [
+        "vreugdeolie",
+        "gezalfd"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Goed (rechts). Onrecht (linksonder).",
+        "classifiers": null,
+        "rolwisseling": null,
+        "tempo_pauzes": "Pauze tussen 'houden van' en 'haten' voor contrast.",
+        "non_manueel": "Blije expressie bij 'goed', boze expressie bij 'onrecht'."
+      },
+      "toelichting": "Abstracte 'gerechtigheid' en 'onrecht' vertaald naar 'goed' en 'onrecht'. 'Gezalfd met vreugdeolie' vereenvoudigd naar 'uitgekozen en blij gemaakt'."
+    },
+    {
+      "zin_nummer": 10,
+      "origineel": "[Zin 10] En ook: ‘In het begin hebt U, Heer, de aarde gegrondvest, en de hemel is het werk van uw handen.",
+      "nmg_versie": "God zegt ook: 'Heer, in het begin heeft U de aarde gemaakt. De hemel is het werk van uw handen.'",
+      "glossen": [
+        "GOD",
+        "ZEGGEN",
+        "OOK",
+        "HEER",
+        "BEGIN",
+        "AARDE",
+        "MAKEN",
+        "HEMEL",
+        "WERK",
+        "HANDEN"
+      ],
+      "glossen_niet_gevonden": [
+        "gegrondvest"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": true,
+        "type": "WAAR-WIE-WAT",
+        "toelichting": "Eerst de tijd (begin), dan de locaties (aarde/hemel), dan de maker (handen)."
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Aarde beneden. Hemel boven.",
+        "classifiers": "Gebruik CL:5 (handen) om de vorm van de aarde en hemel aan te duiden.",
+        "rolwisseling": "Mini-shift naar rechtsboven.",
+        "tempo_pauzes": "Pauze na 'aarde gemaakt'.",
+        "non_manueel": null
+      },
+      "toelichting": "'Gegrondvest' vertaald naar 'gemaakt' voor eenvoud."
+    },
+    {
+      "zin_nummer": 11,
+      "origineel": "[Zin 11] Zij zullen vergaan, maar U houdt stand, ze zullen als een gewaad verslijten, als een mantel zult U ze oprollen, als een gewaad zullen ze worden verwisseld; maar U blijft dezelfde, en uw jaren zullen geen einde nemen.’",
+      "nmg_versie": "De aarde en de hemel zullen verdwijnen, maar U blijft. Alles verslijt als een oude jas. U zult ze oprollen als een mantel. Ze worden vervangen als kleren. Maar U blijft altijd dezelfde. Uw leven stopt nooit.",
+      "glossen": [
+        "AARDE",
+        "HEMEL",
+        "VERDWIJNEN",
+        "MAAR",
+        "BLIJVEN",
+        "ALLES",
+        "VERSLIJTEN",
+        "OUD",
+        "JAS",
+        "OPROLLEN",
+        "MANTEL",
+        "VERVANGEN",
+        "KLEREN",
+        "ALTIJD",
+        "DEZELFDE",
+        "LEVEN",
+        "STOPPEN",
+        "NOOIT"
+      ],
+      "glossen_niet_gevonden": [
+        "gewaad"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Jas/mantel voor het lichaam lokaliseren.",
+        "classifiers": "Handling classifier voor 'oprollen' (draaiende beweging met beide handen).",
+        "rolwisseling": null,
+        "tempo_pauzes": "Gebruik de telhand voor de drie vergelijkingen: (1) verslijten, (2) oprollen, (3) vervangen.",
+        "non_manueel": "Hoofdschudden bij 'nooit'."
+      },
+      "toelichting": "De metafoor van kleding is visueel uitgewerkt. Telhand toegepast voor de opsomming van acties."
+    },
+    {
+      "zin_nummer": 12,
+      "origineel": "[Zin 12] Tegen wie van de engelen heeft Hij ooit gezegd: ‘Neem plaats aan mijn rechterhand, tot Ik van je vijanden een bank voor je voeten heb gemaakt’?",
+      "nmg_versie": "God heeft nooit tegen een engel gezegd: 'Kom aan mijn rechterkant zitten. Ik zal je vijanden verslaan. Ze zullen diep voor U buigen.'",
+      "glossen": [
+        "GOD",
+        "NOOIT",
+        "TEGEN",
+        "ENGEL",
+        "ZEGGEN",
+        "KOMEN",
+        "RECHTS",
+        "ZITTEN",
+        "VIJANDEN",
+        "VERSLAAN",
+        "DIEP",
+        "BUIGEN"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Vijanden linksonder (↙). God rechtsboven.",
+        "classifiers": null,
+        "rolwisseling": "Mini-shift naar rechtsboven.",
+        "tempo_pauzes": "Pauze voor de directe rede.",
+        "non_manueel": "Triomfantelijke blik bij 'verslaan'."
+      },
+      "toelichting": "De metafoor 'bank voor je voeten' is geconcretiseerd naar 'diep buigen' (onderwerping), wat visueel sterker is."
+    },
+    {
+      "zin_nummer": 13,
+      "origineel": "[Zin 13] Zijn zij niet allen dienende geesten, uitgezonden om hen bij te staan die de redding als erfenis zullen ontvangen?",
+      "nmg_versie": "Engelen zijn geesten die God dienen. God stuurt hen om de mensen te helpen. Welke mensen? De mensen die gered worden en Gods erfenis krijgen.",
+      "glossen": [
+        "ENGELEN",
+        "GEESTEN",
+        "GOD",
+        "DIENEN",
+        "GOD",
+        "STUREN",
+        "MENSEN",
+        "HELPEN",
+        "WELKE",
+        "GERED",
+        "ERFENIS",
+        "KRIJGEN"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": null
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Engelen bewegen van God (↗) naar de mensen (beneden).",
+        "classifiers": null,
+        "rolwisseling": null,
+        "tempo_pauzes": "Pauze na de vraag 'Welke mensen?'.",
+        "non_manueel": "Vragende wenkbrauwen bij 'Welke?'."
+      },
+      "toelichting": "Vraag-antwoord structuur gebruikt om de complexe bijzin te verduidelijken."
+    }
+  ],
+  "ruimtelijke_opbouw": {
+    "beschrijving": "De ruimte wordt gedomineerd door de verticale as tussen God en de schepping, en de horizontale as voor contrasten.",
+    "conventionele_plaatsingen": {
+      "god_hemel": "rechtsboven",
+      "kwaad_duivel": "linksonder",
+      "toelichting": "God en de Zoon bevinden zich op de ereplaats rechtsboven. Zonde en vijanden worden consequent linksonder geplaatst."
+    },
+    "locaties": [
+      {
+        "naam": "De Hemel",
+        "locus": "rechtsboven",
+        "beschrijving": "De troon van God"
+      },
+      {
+        "naam": "De Aarde / Wereld",
+        "locus": "beneden / neutraal",
+        "beschrijving": "De plek waar de Zoon naartoe komt en de mensen wonen"
+      },
+      {
+        "naam": "Het Verleden",
+        "locus": "achter de schouder",
+        "beschrijving": "De tijd van de profeten"
+      }
+    ],
+    "personages": [
+      {
+        "naam": "God (Vader)",
+        "locus": "rechtsboven",
+        "beschrijving": "De bron van het spreken"
+      },
+      {
+        "naam": "De Zoon",
+        "locus": "rechtsboven (naast God)",
+        "beschrijving": "De erfgenaam en koning"
+      },
+      {
+        "naam": "Engelen",
+        "locus": "midden / rondom",
+        "beschrijving": "Dienende geesten, lager dan de Zoon"
+      },
+      {
+        "naam": "Profeten",
+        "locus": "links",
+        "beschrijving": "De boodschappers van vroeger"
+      },
+      {
+        "naam": "Vijanden",
+        "locus": "linksonder",
+        "beschrijving": "Degenen die verslagen worden"
+      }
+    ]
+  },
+  "algemene_adviezen": [
+    "Gebruik een plechtige maar heldere mimiek, passend bij de verheven tekst van Hebreeën.",
+    "Zorg dat het onderscheid tussen God die spreekt en de beschrijving van de verteller duidelijk is door subtiele mini-shifts.",
+    "Neem de tijd voor de kleding-metafoor in zin 11; dit is een zeer visueel gedeelte dat rust verdient.",
+    "Houd de loci voor 'Zoon' en 'Engelen' strikt gescheiden om de hiërarchie visueel te maken."
+  ],
+  "_verificatie": {
+    "origineel_aantal_zinnen": 13,
+    "verwerkte_zinnen": 13,
+    "unieke_zinnummers_verwerkt": 13,
+    "ontbrekende_zinnummers": [],
+    "compleet": true,
+    "percentage_verwerkt": 100.0,
+    "failed_batches": []
+  },
+  "_metadata": {
+    "bron_preek": "hebreeen_1_NBV21.txt",
+    "conversie_datum": "2026-01-05T10:01:45.877093",
+    "model": "gemini-3-flash-preview"
+  }
+}

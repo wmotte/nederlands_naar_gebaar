@@ -18,6 +18,19 @@
             --accent-instruction: #f59e0b;
         }
 
+        /* Dark Mode Theme */
+        body.dark-mode {
+            --primary-color: #3b82f6;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --highlight-nmg: #e2e8f0;
+            --gloss-bg: #334155;
+            --gloss-text: #cbd5e1;
+            --border-color: #334155;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -154,14 +167,14 @@
         /* Spatial Context Box */
         #spatial-context {
             display: none;
-            background: #f0f9ff;
-            border: 1px solid #bae6fd;
+            background: var(--bg-color); /* Was #f0f9ff hardcoded */
+            border: 1px solid var(--primary-color); /* Was #bae6fd */
             padding: 16px;
             border-radius: 8px;
             margin-bottom: 30px;
             font-size: 0.9rem;
         }
-        #spatial-context h3 { margin-top: 0; color: #0369a1; }
+        #spatial-context h3 { margin-top: 0; color: var(--primary-color); } /* Was #0369a1 */
 
         /* Sentence Cards */
         .card {
@@ -235,7 +248,7 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 16px;
             font-size: 0.9rem;
-            background: #f8fafc;
+            background: var(--bg-color); /* Was #f8fafc */
             padding: 16px;
             border-radius: 8px;
         }
@@ -248,13 +261,13 @@
         .instruction-label {
             font-size: 0.75rem;
             text-transform: uppercase;
-            color: #94a3b8;
+            color: var(--text-secondary); /* Was #94a3b8 */
             font-weight: 700;
             margin-bottom: 4px;
         }
 
         .instruction-value {
-            color: #334155;
+            color: var(--text-main); /* Was #334155 */
         }
 
         .empty-state {
@@ -280,10 +293,20 @@
 <div class="container">
     <header>
         <h1>NmG Preek Viewer</h1>
-        <label class="file-upload-btn">
-            📂 Laad JSON Bestand
-            <input type="file" id="fileInput" accept=".json">
-        </label>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; justify-content: center; margin-bottom: 1rem;">
+            <select id="fileSelect" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); font-size: 1rem; min-width: 250px; background: var(--card-bg); color: var(--text-main);">
+                <option value="" disabled selected>Kies een preek...</option>
+                <!-- Options populated by JS -->
+            </select>
+            
+            <div style="font-size: 0.9rem; color: var(--text-secondary);">OF</div>
+
+            <label class="file-upload-btn">
+                📂 Upload eigen JSON
+                <input type="file" id="fileInput" accept=".json">
+            </label>
+        </div>
 
         <div class="toggle-container">
             <span>Details tonen</span>
@@ -292,6 +315,15 @@
                 <span class="slider"></span>
             </label>
             <span>Alleen NmG</span>
+        </div>
+
+        <div class="toggle-container" style="margin-top: 10px;">
+            <span>☀️ Licht</span>
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider"></span>
+            </label>
+            <span>🌙 Donker</span>
         </div>
     </header>
 
@@ -312,9 +344,84 @@
 </div>
 
 <script>
-    document.getElementById('fileInput').addEventListener('change', function(e) {
+    // Elements
+    const fileSelect = document.getElementById('fileSelect');
+    const fileInput = document.getElementById('fileInput');
+    const compactToggle = document.getElementById('compactToggle');
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const contentArea = document.getElementById('content-area');
+    const metaSection = document.getElementById('metadata-section');
+    const spatialSection = document.getElementById('spatial-context');
+
+    // Initialize
+    window.addEventListener('DOMContentLoaded', () => {
+        loadManifest();
+        initDarkMode();
+    });
+
+    // Dark Mode Logic
+    function initDarkMode() {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const savedMode = localStorage.getItem('darkMode');
+        
+        if (savedMode === 'true' || (savedMode === null && prefersDark)) {
+            document.body.classList.add('dark-mode');
+            darkModeToggle.checked = true;
+        }
+
+        darkModeToggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                document.body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'true');
+            } else {
+                document.body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'false');
+            }
+        });
+    }
+
+    // Load Manifest and Populate Menu
+    async function loadManifest() {
+        try {
+            const response = await fetch('files.json');
+            if (!response.ok) throw new Error('Kan files.json niet laden');
+            const files = await response.json();
+
+            // Populate dropdown
+            files.forEach(file => {
+                const option = document.createElement('option');
+                option.value = file.file;
+                option.textContent = file.name;
+                if (file.default) option.selected = true;
+                fileSelect.appendChild(option);
+            });
+
+            // Load default if exists
+            const defaultFile = files.find(f => f.default);
+            if (defaultFile) {
+                loadJsonFile(defaultFile.file);
+            }
+
+        } catch (error) {
+            console.warn('Geen files.json gevonden of fout bij laden:', error);
+            // Fallback implies manual upload is needed
+        }
+    }
+
+    // Handle Dropdown Selection
+    fileSelect.addEventListener('change', (e) => {
+        if (e.target.value) {
+            loadJsonFile(e.target.value);
+        }
+    });
+
+    // Handle File Upload
+    fileInput.addEventListener('change', function(e) {
         const file = e.target.files[0];
         if (!file) return;
+
+        // Reset dropdown
+        fileSelect.value = "";
 
         const reader = new FileReader();
         reader.onload = function(e) {
@@ -328,7 +435,20 @@
         reader.readAsText(file);
     });
 
-    document.getElementById('compactToggle').addEventListener('change', function(e) {
+    // Function to fetch and render a JSON file from the server/local folder
+    async function loadJsonFile(filename) {
+        try {
+            contentArea.innerHTML = '<div class="empty-state">Laden...</div>';
+            const response = await fetch(filename);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            const data = await response.json();
+            renderPreek(data);
+        } catch (error) {
+            contentArea.innerHTML = `<div class="empty-state" style="color:red">Fout bij laden: ${error.message}</div>`;
+        }
+    }
+
+    compactToggle.addEventListener('change', function(e) {
         if (e.target.checked) {
             document.body.classList.add('compact-mode');
         } else {
