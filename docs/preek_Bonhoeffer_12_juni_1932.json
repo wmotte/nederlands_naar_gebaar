@@ -1,24 +1,125 @@
 {
   "metadata": {
-    "titel": "Preek van Bonhoeffer - Berlijn 1932",
-    "datum_conversie": "2023-10-27",
+    "titel": "Preek van Bonhoeffer - Berlijn 1932 (Batch 1)",
+    "datum_conversie": "2024-05-24",
     "totaal_zinnen": 18,
-    "samenvatting": "Conversie van de eerste 18 zinnen van Bonhoeffers preek naar NmG+. Focus op lokalisatie van Christus (rechtsboven) versus de menselijke realiteit, gebruik van de telhand voor opsommingen en discourse markers voor hypothetische scenario's."
+    "samenvatting": "Conversie van de inleiding van Bonhoeffers preek. Focus op het contrast tussen de christelijke status (gedoopt) en de radicale aanspraak van de opstanding. Gebruik van de telhand voor opsommingen, lokalisatie voor Christus (rechtsboven) en de historische tijdlijn (links-rechts)."
   },
   "zinnen": [
     {
       "zin_nummer": 1,
       "origineel": "PREEK van Bonhoeffer, Berlijn, 12 juni 1932",
-      "nmg_versie": "Dit is een preek van Bonhoeffer. Hij sprak in Berlijn. Het was op twaalf juni, negentien-twee-en-dertig.",
+      "nmg_versie": "Dit is een preek van Bonhoeffer. Hij gaf deze preek in Berlijn, op 12 juni 1932.",
       "glossen": [
         "DIT",
+        "IS",
         "PREEK",
         "fs-BONHOEFFER",
-        "fs-BERLIJN",
-        "TWAALF",
+        "HIJ",
+        "GEVEN",
+        "PREEK",
+        "BERLIJN",
+        "12",
         "JUNI",
-        "NEGENTIEN",
-        "TWEE-EN-DERTIG"
+        "1932"
+      ],
+      "glossen_niet_gevonden": [
+        "BONHOEFFER"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": null,
+        "toelichting": "Feitelijke introductie."
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Lokaliseer Bonhoeffer aan de linkerkant (historische figuur).",
+        "classifiers": null,
+        "rolwisseling": null,
+        "tempo_pauzes": "Rustig tempo voor de feiten.",
+        "non_manueel": "Neutrale, informerende blik."
+      },
+      "toelichting": "Naam Bonhoeffer moet gevingerspeld worden."
+    },
+    {
+      "zin_nummer": 2,
+      "origineel": "Gemeente, dat is natuurlijk een uiterst vreemde manier om met iemand een gesprek te beginnen: als je nu met Christus bent opgestaan, doe dan zus en zo.",
+      "nmg_versie": "Gemeente, stel je voor. Je begint een gesprek met iemand. Je zegt direct: 'Jij bent met Christus opgestaan. Daarom moet je dit en dat doen.' Dat is natuurlijk een heel vreemde manier om te beginnen.",
+      "glossen": [
+        "GEMEENTE",
+        "STEL",
+        "BEGINNEN",
+        "GESPREK",
+        "IEMAND",
+        "ZEGGEN",
+        "JIJ",
+        "CHRISTUS",
+        "OPGESTAAN",
+        "DAAROM",
+        "MOETEN",
+        "DOEN",
+        "ZO",
+        "DAT",
+        "NATUURLIJK",
+        "HEEL",
+        "VREEMD",
+        "MANIER",
+        "BEGINNEN"
+      ],
+      "glossen_niet_gevonden": [],
+      "narratieve_herstructurering": {
+        "toegepast": true,
+        "type": "WAAR-WIE-WAT",
+        "toelichting": "Eerst de hypothetische situatie (STEL), dan de actie (het gesprek), dan het commentaar (vreemd)."
+      },
+      "nmg_instructies": {
+        "lokalisatie": "Christus rechtsboven lokaliseren (conventie). Gesprekspartner recht voor je.",
+        "classifiers": null,
+        "rolwisseling": "Mini-shift naar voren bij de directe rede: 'Jij bent met Christus opgestaan...'",
+        "tempo_pauzes": "Pauze na 'STEL' en na de directe rede.",
+        "non_manueel": "Vragende/verbaasde blik bij 'vreemde manier'."
+      },
+      "toelichting": "STEL gebruikt voor de hypothetische start van een gesprek. Directe rede maakt de vreemdheid visueel."
+    },
+    {
+      "zin_nummer": 3,
+      "origineel": "Wij zijn gedoopt. We zijn geconfirmeerd.",
+      "nmg_versie": "Wij zijn twee dingen: (1) we zijn gedoopt en (2) we hebben belijdenis gedaan.",
+      "glossen": [
+        "WIJ",
+        "TWEE-item",
+        "EEN",
+        "DOPEN",
+        "TWEE",
+        "BELIJDENIS"
+      ],
+      "glossen_niet_gevonden": [
+        "geconfirmeerd"
+      ],
+      "narratieve_herstructurering": {
+        "toegepast": false,
+        "type": "telhand",
+        "toelichting": "Opsomming van twee kerkelijke feiten."
+      },
+      "nmg_instructies": {
+        "lokalisatie": null,
+        "classifiers": null,
+        "rolwisseling": null,
+        "tempo_pauzes": "Gebruik de telhand (niet-dominante hand) om de punten aan te wijzen.",
+        "non_manueel": "Bevestigend knikken bij elk punt."
+      },
+      "toelichting": "Geconfirmeerd vertaald met BELIJDENIS omdat dit het meest passende gebaar is in de lijst voor deze context."
+    },
+    {
+      "zin_nummer": 4,
+      "origineel": "Er waren periodes waarin we er plezier in hadden de Bijbel te openen.",
+      "nmg_versie": "Vroeger waren er tijden dat we de Bijbel graag openden. We hadden daar plezier in.",
+      "glossen": [
+        "VROEGER",
+        "TIJD",
+        "BIJBEL",
+        "OPENEN",
+        "GRAAG",
+        "PLEZIER"
       ],
       "glossen_niet_gevonden": [],
       "narratieve_herstructurering": {
@@ -27,120 +128,28 @@
         "toelichting": null
       },
       "nmg_instructies": {
-        "lokalisatie": "Plaats Berlijn aan de linkerkant (IX-3b).",
-        "classifiers": null,
-        "rolwisseling": null,
-        "tempo_pauzes": "Rustig tempo voor de inleiding.",
-        "non_manueel": "Neutrale, aankondigende blik."
-      },
-      "toelichting": "Feitelijke informatie directer verwoord."
-    },
-    {
-      "zin_nummer": 2,
-      "origineel": "Gemeente, dat is natuurlijk een uiterst vreemde manier om met iemand een gesprek te beginnen: als je nu met Christus bent opgestaan, doe dan zus en zo.",
-      "nmg_versie": "Gemeente, het is vreemd om zo een gesprek te beginnen. Stel, iemand zegt: 'Jij bent met Christus opgestaan. Doe nu dit en dat.'",
-      "glossen": [
-        "GEMEENTE",
-        "VREEMD",
-        "MANIER",
-        "GESPREK",
-        "BEGINNEN",
-        "STEL",
-        "IEMAND",
-        "ZEGGEN",
-        "JIJ",
-        "CHRISTUS",
-        "OPSTAAN",
-        "DOEN"
-      ],
-      "glossen_niet_gevonden": [
-        "zus en zo"
-      ],
-      "narratieve_herstructurering": {
-        "toegepast": true,
-        "type": "hypothetisch",
-        "toelichting": "Gebruik van STEL om de hypothetische begroeting te introduceren."
-      },
-      "nmg_instructies": {
-        "lokalisatie": "Christus rechtsboven (↗). De 'iemand' links (IX-3b).",
-        "classifiers": null,
-        "rolwisseling": "Mini-shift naar links bij de directe rede: 'Jij bent met Christus opgestaan...'",
-        "tempo_pauzes": "Pauze na 'Stel' en voor de directe rede.",
-        "non_manueel": "Vragende/verbaasde blik bij 'vreemd'."
-      },
-      "toelichting": "Indirecte rede omgezet naar directe rede voor visuele helderheid."
-    },
-    {
-      "zin_nummer": 3,
-      "origineel": "Wij zijn gedoopt. We zijn geconfirmeerd.",
-      "nmg_versie": "Wij zijn gedoopt. We hebben belijdenis gedaan.",
-      "glossen": [
-        "WIJ",
-        "DOPEN",
-        "WIJ",
-        "BELIJDENIS",
-        "DOEN"
-      ],
-      "glossen_niet_gevonden": [
-        "geconfirmeerd"
-      ],
-      "narratieve_herstructurering": {
-        "toegepast": false,
-        "type": null,
-        "toelichting": null
-      },
-      "nmg_instructies": {
-        "lokalisatie": "Wijs naar de groep (wij).",
-        "classifiers": null,
-        "rolwisseling": null,
-        "tempo_pauzes": "Korte pauze tussen de twee feiten.",
-        "non_manueel": "Bevestigend knikken."
-      },
-      "toelichting": "'Geconfirmeerd' vervangen door het bekendere 'belijdenis gedaan'."
-    },
-    {
-      "zin_nummer": 4,
-      "origineel": "Er waren periodes waarin we er plezier in hadden de Bijbel te openen.",
-      "nmg_versie": "Vroeger vonden we het fijn om de Bijbel te lezen.",
-      "glossen": [
-        "VROEGER",
-        "VINDEN",
-        "FIJN",
-        "BIJBEL",
-        "LEZEN"
-      ],
-      "glossen_niet_gevonden": [
-        "periodes",
-        "plezier"
-      ],
-      "narratieve_herstructURering": {
-        "toegepast": false,
-        "type": null,
-        "toelichting": null
-      },
-      "nmg_instructies": {
-        "lokalisatie": "Vroeger (gebaar naar achteren).",
-        "classifiers": "Gebruik de classifier voor het openen van een boek bij 'Bijbel'.",
+        "lokalisatie": "Gebaar VROEGER over de schouder naar achteren (doorleefde tijd).",
+        "classifiers": "Gebruik handling classifier voor het openen van een dik boek (BIJBEL).",
         "rolwisseling": null,
         "tempo_pauzes": null,
-        "non_manueel": "Glimlach bij 'fijn'."
+        "non_manueel": "Lichte glimlach bij 'plezier'."
       },
-      "toelichting": "Abstracte 'periodes' en 'plezier' concreter gemaakt met 'vroeger' en 'fijn'."
+      "toelichting": "VROEGER markeert de periode uit het verleden."
     },
     {
       "zin_nummer": 5,
       "origineel": "We zijn geïnteresseerd in allerhande religieuze kwesties.",
-      "nmg_versie": "We vinden allerlei geloofsvragen interessant.",
+      "nmg_versie": "We vinden allerlei godsdienstige vragen interessant.",
       "glossen": [
         "WIJ",
         "VINDEN",
         "ALLERLEI",
-        "GELOOF",
+        "GODSDIENSTIG",
         "VRAAG",
         "INTERESSANT"
       ],
       "glossen_niet_gevonden": [
-        "religieuze kwesties"
+        "kwesties"
       ],
       "narratieve_herstructurering": {
         "toegepast": false,
@@ -154,17 +163,17 @@
         "tempo_pauzes": null,
         "non_manueel": "Geïnteresseerde blik."
       },
-      "toelichting": "'Religieuze kwesties' geconcretiseerd naar 'geloofsvragen'."
+      "toelichting": "Kwesties vertaald naar VRAAG voor visuele helderheid."
     },
     {
       "zin_nummer": 6,
       "origineel": "We leven misschien zelfs trouw en met liefde mee met onze kerk.",
-      "nmg_versie": "Misschien leven we trouw mee met onze kerk. Met liefde.",
+      "nmg_versie": "Misschien leven we zelfs trouw mee met onze kerk. We doen dat met liefde.",
       "glossen": [
         "MISSCHIEN",
-        "LEVEN",
+        "WIJ",
         "TROUW",
-        "MEE",
+        "MEELEVEN",
         "KERK",
         "LIEFDE"
       ],
@@ -175,26 +184,30 @@
         "toelichting": null
       },
       "nmg_instructies": {
-        "lokalisatie": "Kerk centraal of licht rechts.",
+        "lokalisatie": "Lokaliseer de kerk (gebouw/gemeenschap) aan de zijkant.",
         "classifiers": null,
         "rolwisseling": null,
-        "tempo_pauzes": "Pauze voor 'Met liefde' voor nadruk.",
-        "non_manueel": "Zachte, warme uitdrukking bij 'liefde'."
+        "tempo_pauzes": null,
+        "non_manueel": "Warme gezichtsuitdrukking bij 'liefde'."
       },
-      "toelichting": "Zinsbouw vereenvoudigd voor betere ondersteuning."
+      "toelichting": "Zin licht opgebroken voor betere nadruk op 'liefde'."
     },
     {
       "zin_nummer": 7,
       "origineel": "En last but not least: we leven in een world die zich sinds anderhalf- à tweeduizend jaar onder Jezus Christus’ naam als een christelijke world heeft ontvouwd.",
-      "nmg_versie": "En als laatste: we leven in een christelijke wereld. Dat is al tweeduizend jaar zo. Alles gebeurt onder de naam van Jezus Christus.",
+      "nmg_versie": "Ook belangrijk: we leven in een wereld van nu. Die wereld is al tweeduizend jaar christelijk. Dat komt door de naam van Jezus Christus.",
       "glossen": [
-        "LAATSTE",
-        "LEVEN",
+        "OOK",
+        "BELANGRIJK",
+        "WIJ",
+        "WONEN",
         "WERELD",
-        "CHRISTELIJK",
-        "TWEEDUIZEND",
+        "NU",
+        "TIJDLIJN-links-naar-rechts",
+        "2000",
         "JAAR",
-        "ALLES",
+        "CHRISTELIJK",
+        "KOMEN-DOOR",
         "NAAM",
         "JEZUS",
         "CHRISTUS"
@@ -205,127 +218,158 @@
       "narratieve_herstructurering": {
         "toegepast": false,
         "type": null,
-        "toelichting": null
+        "toelichting": "Historische context."
       },
       "nmg_instructies": {
-        "lokalisatie": "Jezus Christus rechtsboven (↗).",
+        "lokalisatie": "Jezus Christus rechtsboven. Gebruik de historische tijdslijn van links (verleden) naar rechts (nu).",
         "classifiers": null,
         "rolwisseling": null,
-        "tempo_pauzes": "Pauze na 'En als laatste'.",
-        "non_manueel": "Brede gebaren bij 'wereld' en 'alles'."
+        "tempo_pauzes": "Pauze na 'Ook belangrijk'.",
+        "non_manueel": "Serieuze blik."
       },
-      "toelichting": "Lange zin opgebroken. 'Ontvouwd' weggelaten omdat de tijdsduur en de naam de lading dekken."
+      "toelichting": "Last but not least vertaald naar 'Ook belangrijk'. Ontvouwd is abstract, vervangen door 'is al 2000 jaar christelijk'."
     },
     {
       "zin_nummer": 8,
       "origineel": "En toch, als nu iemand een gesprek met ons zo zou beginnen: met ons er eenvoudig op aan te spreken dat we nu met Christus zijn opgestaan, dan zouden we toch van het verdere gesprek met hem maar liever afzien.",
-      "nmg_versie": "Maar stel, iemand begint zo een gesprek. Hij zegt: 'Jullie zijn nu met Christus opgestaan.' Dan willen we liever niet verder praten.",
+      "nmg_versie": "Maar stel dat iemand zo tegen ons praat. Hij zegt: 'Jullie zijn nu met Christus opgestaan.' Dan willen we niet meer verder praten. We stoppen het gesprek liever.",
       "glossen": [
         "MAAR",
         "STEL",
         "IEMAND",
-        "BEGINNEN",
-        "GESPREK",
+        "TEGEN",
+        "WIJ",
+        "PRATEN",
         "ZEGGEN",
         "JULLIE",
+        "NU",
         "CHRISTUS",
-        "OPSTAAN",
-        "LIEVER",
+        "OPGESTAAN",
+        "WIJ",
+        "WILLEN",
         "NIET",
         "VERDER",
-        "PRATEN"
+        "PRATEN",
+        "STOPPEN",
+        "GESPREK",
+        "LIEVER"
       ],
       "glossen_niet_gevonden": [
         "afzien"
       ],
       "narratieve_herstructurering": {
         "toegepast": true,
-        "type": "hypothetisch",
-        "toelichting": "STEL markeert de ongemakkelijke hypothetische situatie."
+        "type": "WAAR-WIE-WAT",
+        "toelichting": "Hypothetisch scenario (STEL) gevolgd door de reactie."
       },
       "nmg_instructies": {
-        "lokalisatie": "Christus rechtsboven (↗). De spreker links (IX-3b).",
+        "lokalisatie": "Christus rechtsboven. De spreker (iemand) tegenover je.",
         "classifiers": null,
-        "rolwisseling": "Mini-shift naar links bij de directe rede.",
+        "rolwisseling": "Mini-shift bij 'Jullie zijn...'",
         "tempo_pauzes": "Pauze na de directe rede.",
-        "non_manueel": "Afwijzende houding bij 'liever niet verder praten'."
+        "non_manueel": "Hoofdschudden bij 'niet meer verder praten'."
       },
-      "toelichting": "Complex 'afzien van' vereenvoudigd naar 'niet verder praten'."
+      "toelichting": "Afzien van gesprek geconcretiseerd naar 'stoppen' en 'niet verder praten'."
     },
     {
       "zin_nummer": 9,
       "origineel": "We zouden zien hoe geroerd hij was; we zouden zien hoe bewogen hij was; we zouden zien hoe gloeiend ernstig hij meende wat hij ons verder nog wilde zeggen.",
-      "nmg_versie": "We zien drie dingen aan die man: (1) hij is geraakt, (2) hij is bewogen, (3) hij is heel serieus.",
+      "nmg_versie": "We zien drie dingen aan die man: (1) hij is geroerd, (2) hij is bewogen en (3) hij is heel erg ernstig. Hij meent echt wat hij zegt.",
       "glossen": [
         "WIJ",
         "ZIEN",
-        "MAN",
-        "RAKEN",
+        "DRIE-item",
+        "PERSOON",
+        "EEN",
+        "GEROERD",
+        "TWEE",
         "BEWOGEN",
-        "ERNSTIG"
+        "DRIE",
+        "HEEL",
+        "ERNSTIG",
+        "HIJ",
+        "MENEN",
+        "ECHT",
+        "WAT",
+        "HIJ",
+        "ZEGGEN"
       ],
       "glossen_niet_gevonden": [
-        "geroerd",
-        "gloeiend ernstig"
+        "gloeiend"
       ],
       "narratieve_herstructurering": {
         "toegepast": false,
         "type": "telhand",
-        "toelichting": "Opsomming van emoties via de telhand."
+        "toelichting": "Opsomming van emoties."
       },
       "nmg_instructies": {
-        "lokalisatie": "De man links (IX-3b).",
+        "lokalisatie": "Lokaliseer de man aan de linkerkant.",
         "classifiers": null,
         "rolwisseling": null,
-        "tempo_pauzes": "Gebruik de telhand (1, 2, 3) met duidelijke pauzes.",
-        "non_manueel": "Empathische blik bij de eerste twee punten, zeer serieuze blik bij de derde."
+        "tempo_pauzes": "Gebruik telhand voor de drie emoties.",
+        "non_manueel": "Mimiek moet de emoties (geroerd, bewogen, ernstig) ondersteunen."
       },
-      "toelichting": "Parallellie behouden via de visueel sterke telhand."
+      "toelichting": "Telhand maakt de herhaling 'we zouden zien' visueel rustiger en duidelijker."
     },
     {
       "zin_nummer": 10,
       "origineel": "Maar voor deze vooronderstelling die hij daar uitsprak en die hij tegen geen enkele prijs wilde laten vallen, voor deze voorwaarde die hij meent te moeten stellen, wilden wij überhaupt in staat zijn alles te horen en te begrijpen wat hij ons verder nog wilde toevertrouwen, ja: voor deze vooronderstelling en voorwaarde – dat wij nu dus met Christus zouden zijn opgestaan – voor deze manier van aanspreken zouden wij ons afsluiten; we zouden ons daar verbijsterd en bevreemd van afkeren.",
-      "nmg_versie": "Die man heeft een voorwaarde: wij zijn met Christus opgestaan. Hij houdt daaraan vast. Maar wij sluiten ons daarvoor af. We zijn verbaasd en we draaien ons om.",
+      "nmg_versie": "Die man vindt één ding heel belangrijk. Hij zegt: 'Jullie zijn met Christus opgestaan.' Dat is voor hem een vaste voorwaarde. Maar wij kunnen dat niet horen. We begrijpen het niet. We sluiten ons hart af. We draaien ons om. We zijn verbijsterd.",
       "glossen": [
-        "MAN",
-        "VOORWAARDE",
+        "PERSOON",
+        "VINDEN",
+        "EEN",
+        "BELANGRIJK",
+        "HIJ",
+        "ZEGGEN",
+        "JULLIE",
         "CHRISTUS",
-        "OPSTAAN",
-        "VASTHOUDEN",
+        "OPGESTAAN",
+        "DAT",
+        "VOORWAARDE",
+        "VAST",
+        "MAAR",
         "WIJ",
+        "KUNNEN",
+        "NIET",
+        "HOREN",
+        "BEGRIJPEN",
+        "NIET",
+        "WIJ",
+        "HART",
         "AFSLUITEN",
-        "VERBAASD",
-        "OMDRAAIEN"
+        "AFWENDEN",
+        "VERBIJSTERD"
       ],
       "glossen_niet_gevonden": [
         "vooronderstelling",
-        "überhaupt",
-        "toevertrouwen",
-        "bevreemd"
+        "bevreemd",
+        "toevertrouwen"
       ],
       "narratieve_herstructurering": {
         "toegepast": false,
         "type": null,
-        "toelichting": null
+        "toelichting": "Complex betoog vereenvoudigd."
       },
       "nmg_instructies": {
-        "lokalisatie": "Man links, Christus rechtsboven.",
+        "lokalisatie": "Christus rechtsboven. De man links.",
         "classifiers": null,
-        "rolwisseling": null,
-        "tempo_pauzes": "Pauze na 'afsluiten'.",
-        "non_manueel": "Verbaasde blik, fysiek afwenden bij 'omdraaien'."
+        "rolwisseling": "Mini-shift bij 'Jullie zijn...'",
+        "tempo_pauzes": "Lange pauze na 'verbijsterd'.",
+        "non_manueel": "Gezichtsuitdrukking van onbegrip en afsluiting (gefronste wenkbrauwen, lippen op elkaar)."
       },
-      "toelichting": "Zeer complexe zin drastisch ingekort tot de kern: de man houdt vast aan de claim, wij wijzen het af."
+      "toelichting": "Lange zin opgebroken. Vooronderstelling vertaald als 'voorwaarde'. Bevreemd en afkeren geconcretiseerd naar 'afwenden' en 'verbijsterd'."
     },
     {
       "zin_nummer": 11,
       "origineel": "We zouden ons hoofd schudden over zo’n mens.",
-      "nmg_versie": "We schudden ons hoofd over die mens.",
+      "nmg_versie": "We kijken naar die man en we schudden ons hoofd.",
       "glossen": [
         "WIJ",
-        "SCHUDDEN",
-        "HOOFD",
-        "MENS"
+        "KIJKEN",
+        "PERSOON",
+        "WIJ",
+        "HOOFD-SCHUDDEN"
       ],
       "glossen_niet_gevonden": [],
       "narratieve_herstructurering": {
@@ -334,59 +378,69 @@
         "toelichting": null
       },
       "nmg_instructies": {
-        "lokalisatie": "Wijs naar de man links.",
+        "lokalisatie": "Kijk naar de plek waar de man gelokaliseerd is (links).",
         "classifiers": null,
         "rolwisseling": null,
         "tempo_pauzes": null,
-        "non_manueel": "Hoofdschudden van onbegrip."
+        "non_manueel": "Hoofdschudden (ongeloof)."
       },
-      "toelichting": "Directe vertaling."
+      "toelichting": "Korte, krachtige actie."
     },
     {
       "zin_nummer": 12,
       "origineel": "Eigenlijk zou deze manier van aanspreken ons moeten overvallen als een oordeel.",
-      "nmg_versie": "Eigenlijk moet die boodschap ons raken als een oordeel.",
+      "nmg_versie": "Eigenlijk is die boodschap als een oordeel. Het zou ons moeten overvallen.",
       "glossen": [
         "EIGENLIJK",
         "BOODSCHAP",
-        "RAKEN",
-        "OORDEEL"
+        "ALSOF",
+        "OORDEEL",
+        "MOETEN",
+        "OVERVALLEN"
       ],
-      "glossen_niet_gevonden": [
-        "overvallen"
-      ],
+      "glossen_niet_gevonden": [],
       "narratieve_herstructurering": {
         "toegepast": false,
         "type": null,
         "toelichting": null
       },
       "nmg_instructies": {
-        "lokalisatie": "Oordeel linksonder (↙) lokaliseren.",
-        "classifiers": null,
+        "lokalisatie": "Oordeel komt van boven (God/Rechter).",
+        "classifiers": "Gebruik een beweging van boven naar beneden voor 'overvallen'.",
         "rolwisseling": null,
         "tempo_pauzes": null,
         "non_manueel": "Ernstige blik."
       },
-      "toelichting": "'Overvallen' vervangen door 'raken' voor een sterker visueel gebaar."
+      "toelichting": "Behoud van 'alsof' voor de vergelijking."
     },
     {
       "zin_nummer": 13,
       "origineel": "Eigenlijk zou dit ene woord zo vol gezag, zo verheven, zo groots bij ons binnen moeten breken dat wij in vrees en beven zouden verbleken – want deze glans, deze heerlijkheid: met Christus te zijn opgestaan, die komt ons toch waarachtig niet toe, die is in ons leven zelfs met de beste wil en met het scherpste onderscheidingsvermogen toch nergens te ontdekken.",
-      "nmg_versie": "Dit woord heeft gezag. Het is groot en heilig. Het zou ons bang moeten maken. Waarom? Omdat die heerlijkheid niet bij ons past. In ons leven is die opstanding nergens te vinden.",
+      "nmg_versie": "Dat woord heeft veel gezag. Het is groot en heilig. Het komt bij ons binnen. Dan worden we bang. We beven. Waarom? Die glans en heerlijkheid van het opstaan met Christus, die hebben wij niet. In ons leven is dat niet te vinden. Ook niet als we heel goed zoeken.",
       "glossen": [
         "WOORD",
         "GEZAG",
         "GROOT",
         "HEILIG",
+        "BINNENKOMEN",
+        "WIJ",
         "BANG",
+        "BEVEN",
         "WAAROM",
+        "GLANS",
         "HEERLIJKHEID",
+        "CHRISTUS",
+        "OPGESTAAN",
+        "WIJ",
+        "HEBBEN",
         "NIET",
-        "PASSEN",
         "LEVEN",
-        "OPSTANDING",
-        "NERGENS",
-        "VINDEN"
+        "VINDEN",
+        "NIET",
+        "OOK",
+        "GOED",
+        "ZOEKEN",
+        "NIETS"
       ],
       "glossen_niet_gevonden": [
         "verheven",
@@ -397,26 +451,28 @@
       "narratieve_herstructurering": {
         "toegepast": false,
         "type": null,
-        "toelichting": null
+        "toelichting": "Theologische diepgang vereenvoudigd naar visuele emotie."
       },
       "nmg_instructies": {
-        "lokalisatie": "Heerlijkheid/Opstanding rechtsboven (↗).",
+        "lokalisatie": "Christus rechtsboven. Glans/Heerlijkheid ook rechtsboven.",
         "classifiers": null,
         "rolwisseling": null,
-        "tempo_pauzes": "Pauze na 'Waarom?'.",
-        "non_manueel": "Vragende wenkbrauwen bij 'Waarom?'. Nederige houding bij 'niet bij ons past'."
+        "tempo_pauzes": "Pauze na 'beven' en na 'Waarom?'.",
+        "non_manueel": "Angstige blik bij 'beven'. Contrast met de 'glans' (stralende blik) en dan weer de leegte (teleurgestelde blik)."
       },
-      "toelichting": "Abstracte 'glans' en 'onderscheidingsvermogen' vereenvoudigd. Focus op het contrast tussen Gods grootheid en onze realiteit."
+      "toelichting": "Abstracte termen als 'onderscheidingsvermogen' vervangen door 'goed zoeken'. Focus op het contrast tussen Gods heerlijkheid en menselijke realiteit."
     },
     {
       "zin_nummer": 14,
       "origineel": "Maar in plaats daarvan wenden we ons af, verbijsterd en bevreemd.",
-      "nmg_versie": "Maar wij draaien ons om. We zijn verbaasd.",
+      "nmg_versie": "Maar dat gebeurt niet. We draaien ons om. We zijn verbijsterd.",
       "glossen": [
         "MAAR",
+        "GEBEUREN",
+        "NIET",
         "WIJ",
-        "OMDRAAIEN",
-        "VERBAASD"
+        "AFWENDEN",
+        "VERBIJSTERD"
       ],
       "glossen_niet_gevonden": [
         "bevreemd"
@@ -431,18 +487,18 @@
         "classifiers": null,
         "rolwisseling": null,
         "tempo_pauzes": null,
-        "non_manueel": "Fysiek wegdraaien van de schouders."
+        "non_manueel": "Verbijsterde blik."
       },
-      "toelichting": "Kort en krachtig."
+      "toelichting": "In plaats daarvan vertaald als 'dat gebeurt niet' voor betere flow."
     },
     {
       "zin_nummer": 15,
       "origineel": "In plaats daarvan schudden we ons hoofd.",
-      "nmg_versie": "We schudden ons hoofd.",
+      "nmg_versie": "We schudden alleen ons hoofd.",
       "glossen": [
         "WIJ",
-        "SCHUDDEN",
-        "HOOFD"
+        "ALLEEN",
+        "HOOFD-SCHUDDEN"
       ],
       "glossen_niet_gevonden": [],
       "narratieve_herstructurering": {
@@ -455,65 +511,74 @@
         "classifiers": null,
         "rolwisseling": null,
         "tempo_pauzes": null,
-        "non_manueel": "Hoofdschudden."
+        "non_manueel": "Hoofdschudden (afwijzing)."
       },
-      "toelichting": "Herhaling voor nadruk."
+      "toelichting": "Korte herhaling voor nadruk."
     },
     {
       "zin_nummer": 16,
       "origineel": "In plaats daarvan voelen wij, gedoopte en geconfirmeerde christenen, ons bij deze manier van aanspreken alsof de vertegenwoordiger van een of ander mysterieus geheim genootschap ons tegemoet trad met zijn zonderlinge wachtwoord.",
-      "nmg_versie": "Wij zijn gedoopt en we horen bij de kerk. Maar dit woord voelt vreemd. Het is alsof iemand van een geheime groep ons een raar wachtwoord vertelt.",
+      "nmg_versie": "Wij zijn gedoopt. We hebben belijdenis gedaan. Maar we voelen ons vreemd. Het is alsof er een man komt van een geheime groep. Hij zegt een vreemd wachtwoord tegen ons.",
       "glossen": [
         "WIJ",
         "DOPEN",
-        "KERK",
-        "WOORD",
+        "BELIJDENIS",
+        "MAAR",
         "VOELEN",
         "VREEMD",
         "ALSOF",
-        "IEMAND",
+        "PERSOON",
+        "KOMEN",
         "GEHEIM",
         "GROEP",
-        "RAAR",
+        "HIJ",
+        "ZEGGEN",
+        "VREEMD",
         "WACHTWOORD",
-        "ZEGGEN"
+        "TEGEN",
+        "WIJ"
       ],
       "glossen_niet_gevonden": [
+        "geconfirmeerde",
+        "vertegenwoordiger",
         "genootschap",
-        "tegemoet trad",
         "zonderlinge"
       ],
       "narratieve_herstructurering": {
-        "toegepast": false,
-        "type": null,
-        "toelichting": null
+        "toegepast": true,
+        "type": "WAAR-WIE-WAT",
+        "toelichting": "Eerst de status (wie), dan de vergelijking (alsof), dan de actie (man met wachtwoord)."
       },
       "nmg_instructies": {
-        "lokalisatie": "Geheime groep links (IX-3b).",
+        "lokalisatie": "Lokaliseer de 'geheime man' schuin voor je.",
         "classifiers": null,
-        "rolwisseling": null,
-        "tempo_pauzes": "Pauze na 'vreemd'.",
-        "non_manueel": "Mysterieus gezicht bij 'geheim'."
+        "rolwisseling": "Mini-shift bij het zeggen van het wachtwoord.",
+        "tempo_pauzes": "Pauze na 'geheime groep'.",
+        "non_manueel": "Geheimzinnige blik."
       },
-      "toelichting": "Beeldspraak 'alsof' behouden. 'Genootschap' en 'zonderlinge' vereenvoudigd."
+      "toelichting": "Mysterieus genootschap vertaald naar 'geheime groep'. Zonderling naar 'vreemd'."
     },
     {
       "zin_nummer": 17,
       "origineel": "Daarover mogen we ons echt geen illusies maken: deze manier van aanspreken, ‘jullie zijn met Christus opgestaan’, spreekt fundamenteel en hopeloos langs ons christenen heen.",
-      "nmg_versie": "We moeten eerlijk zijn. De woorden 'jullie zijn opgestaan' bereiken ons niet. Het gaat langs ons heen.",
+      "nmg_versie": "We moeten eerlijk zijn. We maken geen illusies. Die woorden: 'Jullie zijn met Christus opgestaan', die begrijpen wij niet. Die woorden gaan helemaal langs ons heen.",
       "glossen": [
         "WIJ",
+        "MOETEN",
         "EERLIJK",
-        "WOORD",
+        "GEEN",
+        "ILLUSIE",
+        "WOORDEN",
         "JULLIE",
-        "OPSTAAN",
-        "BEREIKEN",
+        "CHRISTUS",
+        "OPGESTAAN",
+        "BEGRIJPEN",
         "NIET",
-        "LANGS",
-        "GAAN"
+        "WOORDEN",
+        "LANGS-JE-HEEN-GAAN",
+        "WIJ"
       ],
       "glossen_niet_gevonden": [
-        "illusies",
         "fundamenteel",
         "hopeloos"
       ],
@@ -523,98 +588,111 @@
         "toelichting": null
       },
       "nmg_instructies": {
-        "lokalisatie": "Opstaan rechtsboven (↗).",
-        "classifiers": "Gebruik classifier voor 'langs heen gaan' (hand beweegt langs het hoofd).",
+        "lokalisatie": "Christus rechtsboven.",
+        "classifiers": "Gebruik het gebaar LANGS-JE-HEEN-GAAN met een grote beweging.",
         "rolwisseling": null,
-        "tempo_pauzes": null,
+        "tempo_pauzes": "Pauze na 'eerlijk zijn'.",
         "non_manueel": "Ernstige, eerlijke blik."
       },
-      "toelichting": "Abstracte 'illusies' en 'fundamenteel' vervangen door de concrete actie van het 'niet bereiken'."
+      "toelichting": "Fundamenteel en hopeloos geconcretiseerd door 'helemaal langs ons heen'."
     },
     {
       "zin_nummer": 18,
       "origineel": "Deze manier van aanspreken hebben wij allang verbannen naar sekten (en dan zijn we er nog verbaasd over dat er sekten bestaan!); deze manier van aanspreken hebben wij allang als verouderd en stoffig geworden achter ons gelaten – om ons met voor het oog belangrijker, nuttiger, interessanter en misschien zelfs christelijker zaken bezig te houden.",
-      "nmg_versie": "Wij hebben die woorden weggestuurd naar sekten. We vinden het oud en stoffig. We kijken liever naar vier andere zaken: (1) belangrijke dingen, (2) nuttige dingen, (3) interessante dingen, (4) christelijke dingen.",
+      "nmg_versie": "Die woorden over Christus en opstaan? Die vinden we oud en stoffig. We doen die woorden weg. We laten ze over aan sekten. Wij houden ons bezig met andere dingen. Vier dingen: (1) belangrijke zaken, (2) nuttige zaken, (3) interessante zaken en (4) christelijke zaken.",
       "glossen": [
-        "WIJ",
-        "WEGSTUREN",
-        "SEKTE",
+        "WOORDEN",
+        "CHRISTUS",
+        "OPGESTAAN",
         "VINDEN",
         "OUD",
         "STOFFIG",
-        "LIEVER",
+        "WEGDOEN",
+        "LATEN",
+        "SEKTE",
+        "WIJ",
         "BEZIG",
+        "ANDERE",
+        "DINGEN",
+        "VIER-item",
+        "EEN",
         "BELANGRIJK",
+        "TWEE",
         "NUTTIG",
+        "DRIE",
         "INTERESSANT",
+        "VIER",
         "CHRISTELIJK"
       ],
       "glossen_niet_gevonden": [
-        "verbannen",
-        "verouderd"
+        "verbannen"
       ],
       "narratieve_herstructurering": {
         "toegepast": false,
         "type": "telhand",
-        "toelichting": "Opsomming van de 'belangrijke zaken' via de telhand."
+        "toelichting": "Opsomming van de 'belangrijkere' zaken."
       },
       "nmg_instructies": {
-        "lokalisatie": "Sekten ver naar links (IX-3b).",
-        "classifiers": "Gebaar voor 'stoffig' (blazen of wrijven).",
+        "lokalisatie": "Christus rechtsboven. Sekten aan de linkerkant (negatief/buitenstaanders).",
+        "classifiers": "Gebaar STOFFIG met een wegwerpgebaar.",
         "rolwisseling": null,
-        "tempo_pauzes": "Duidelijke telhand 1 t/m 4.",
-        "non_manueel": "Beetje minachtende blik bij 'oud en stoffig'."
+        "tempo_pauzes": "Gebruik de telhand voor de vier punten.",
+        "non_manueel": "Beetje hoogmoedige blik bij de telhand (ironie van Bonhoeffer)."
       },
-      "toelichting": "Lange opsomming visueel gemaakt met de telhand. 'Verbannen' geconcretiseerd naar 'wegsturen'."
+      "toelichting": "Verbannen vertaald naar 'wegdoen' en 'overlaten aan'. Telhand voor de vier bijvoeglijke naamwoorden."
     }
   ],
   "ruimtelijke_opbouw": {
-    "beschrijving": "De ruimte wordt verdeeld tussen de goddelijke claim (rechtsboven) en de menselijke afwijzing/wereldse zaken (links).",
+    "beschrijving": "De ruimte wordt gedomineerd door de verticale as (Christus boven) en de horizontale as (historische tijd en sociale groepen).",
     "conventionele_plaatsingen": {
       "god_hemel": "rechtsboven",
       "kwaad_duivel": "linksonder",
-      "toelichting": "Christus en de opstanding worden consequent rechtsboven geplaatst. De 'vreemde spreker' en sekten worden links geplaatst."
+      "toelichting": "Christus en de opstanding worden consequent rechtsboven geplaatst."
     },
     "locaties": [
       {
         "naam": "Berlijn",
-        "locus": "links",
-        "beschrijving": "Plaats van de preek"
+        "locus": "centraal-onder",
+        "beschrijving": "De plek van de preek"
       },
       {
         "naam": "Kerk",
-        "locus": "centraal",
-        "beschrijving": "De eigen gemeenschap"
+        "locus": "rechts",
+        "beschrijving": "De eigen vertrouwde gemeenschap"
       },
       {
         "naam": "Sekten",
-        "locus": "ver links",
-        "beschrijving": "Waar de woorden naar verbannen zijn"
+        "locus": "links",
+        "beschrijving": "De groepen buiten de kerk"
+      },
+      {
+        "naam": "Verleden",
+        "locus": "achter/links",
+        "beschrijving": "Historische context en vroege kerk"
       }
     ],
     "personages": [
+      {
+        "naam": "Bonhoeffer",
+        "locus": "links",
+        "beschrijving": "De prediker (historisch)"
+      },
       {
         "naam": "Christus",
         "locus": "rechtsboven",
         "beschrijving": "De opgestane Heer"
       },
       {
-        "naam": "De vreemde spreker",
-        "locus": "links",
-        "beschrijving": "De hypothetische persoon die ons aanspreekt"
-      },
-      {
-        "naam": "Wij (gemeente)",
-        "locus": "centraal",
-        "beschrijving": "De hoorders"
+        "naam": "De vreemde man",
+        "locus": "links-voor",
+        "beschrijving": "De hypothetische gesprekspartner"
       }
     ]
   },
   "algemene_adviezen": [
-    "Houd het contrast tussen 'rechtsboven' (Christus) en 'links' (de wereld/de vreemde spreker) zeer scherp.",
-    "Gebruik de telhand bij zin 9 en 18 om de opsommingen rustig en visueel over te brengen.",
-    "Zorg dat het mondbeeld bij 'opgestaan' en 'Christus' zeer duidelijk is, omdat dit de kernthema's zijn.",
-    "Neem de tijd voor de 'mini-shifts' bij de directe rede om het perspectief van de vreemde spreker te markeren."
+    "Gebruik de telhand consequent bij de opsommingen in zin 3, 9 en 18 om de structuur helder te houden.",
+    "Zorg voor een groot visueel contrast tussen de 'glans' (rechtsboven) en de 'stoffigheid' (beneden/links).",
+    "De ironie van Bonhoeffer (wij christenen vinden onszelf heel wat) moet in de mimiek zichtbaar zijn, vooral in de laatste zin."
   ],
   "_verificatie": {
     "origineel_aantal_zinnen": 18,
@@ -627,7 +705,7 @@
   },
   "_metadata": {
     "bron_preek": "preek_Bonhoeffer_12_juni_1932.txt",
-    "conversie_datum": "2026-01-05T18:20:52.843655",
+    "conversie_datum": "2026-01-06T20:25:57.198267",
     "model": "gemini-3-flash-preview"
   }
 }
