@@ -15,7 +15,7 @@ W.M. Otte (w.m.otte@umcutrecht.nl)
 """
 
 # Model configuratie
-MODEL_NAME = "gemini-3-flash-preview"
+MODEL_NAME = "gemini-3-pro-preview"
 MODEL_NAME_FALLBACK = "gemini-2.5-flash"
 
 # Batch configuratie

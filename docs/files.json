@@ -1,8 +1,13 @@
 [
     {
-        "name": "Preek Bonhoeffer (12 juni 1932)",
-        "file": "preek_Bonhoeffer_12_juni_1932.json",
+        "name": "Oudjaar 2025",
+        "file": "preek_oudjaar_2025.json",
         "default": true
+    },
+    {
+        "name": "Preek Bonhoeffer (12 juni 1932)",
+        "file": "preek_Bonhoeffer_12_juni_1932.json"
+        
     },
     {
         "name": "Hebreeën 1 (NBV21)",
