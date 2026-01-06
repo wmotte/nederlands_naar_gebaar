@@ -259,8 +259,10 @@ In gebarentaal bestaan **vaste conventies** voor de plaatsing van bepaalde conce
 |---------|---------|----------|-------------|
 | **Het goede / positief** | **Rechtsboven** | ↗ | God, hemel, engelen, zegen, heil, verlossing |
 | **Het kwade / negatief** | **Linksonder** | ↙ | Duivel, hel, de boze, zonde, vloek, verderf |
-| **Verleden** | Achter | ← | Vroeger, toen, geschiedenis |
-| **Toekomst** | Voor | → | Straks, later, wat komt |
+| **Verleden (doorleefde tijd)** | Achter | ← | Vroeger, toen, persoonlijke geschiedenis |
+| **Toekomst (doorleefde tijd)** | Voor | → | Straks, later, wat komt |
+| **Verleden (historische tijd)** | Links | ← | Oude Testament, vroegere tijdperken, oudere generaties |
+| **Heden/Toekomst (historische tijd)** | Rechts | → | Nieuwe Testament, huidige tijd, jongere generaties |
 | **Hemel / transcendent** | Boven | ↑ | God, hemels, geestelijk |
 | **Aarde / immanent** | Beneden/neutraal | ↓ | Mensen, aards, lichamelijk |
 
@@ -269,20 +271,56 @@ In gebarentaal bestaan **vaste conventies** voor de plaatsing van bepaalde conce
 1. **God en het goddelijke**: Altijd rechtsboven lokaliseren
    - "God ziet ons" → blik en gebaar naar rechtsboven
    - "De Heilige Geest daalt neer" → van rechtsboven naar beneden
+   - Bij directe citaten van God/Jezus in de "ik"-vorm: wijzen naar de lokalisatie rechtsboven
+   - **Speciale theologische uitdrukkingen:** Voor "God uit God, Licht uit Licht" (Geloofsbelijdenis):
+     - Lokaliseer God rechts boven
+     - Maak met de linkerhand een uitgaande beweging naar links boven
+     - God aan de rechterkant verdwijnt (er zijn geen twee goden)
+     - Voor "één in wezen met de Vader": wijs naar beide locaties en gebaar "samen, zelfde kern, zelfde bestaan"
 
-2. **Het kwaad en de tegenstander**: Altijd linksonder lokaliseren
+2. **Maria en heiligen**: Nuancering nodig
+   - Maria wordt wel rechts gelokaliseerd, maar **niet echt boven** - alleen een beetje hoger
+   - **Reden:** Maria is mens zoals wij, niet goddelijk
+   - Onderscheid tussen het goddelijke (helemaal rechtsboven) en het heilige/menselijke (rechts, iets verhoogd)
+
+3. **Het kwaad en de tegenstander**: Altijd linksonder lokaliseren
    - "De duivel verzoekt" → gebaar richting linksonder
    - "De zonde trekt ons naar beneden" → beweging naar linksonder
 
-3. **Contrasten tussen goed en kwaad**: Gebruik de diagonaal
+4. **Contrasten tussen goed en kwaad**: Gebruik de diagonaal
    - "Licht overwint duisternis" → van linksonder naar rechtsboven
    - "Kiezen tussen God en de mammon" → rechts vs links plaatsen
 
-4. **Hemel en aarde**: Verticale as
+5. **Hemel en aarde**: Verticale as
    - "In de hemel en op de aarde" → boven en beneden
    - "Gods koninkrijk komt op aarde" → van boven naar beneden
 
-**Let op:** Deze conventies zijn NIET willekeurig. Ze zijn diepgeworteld in de gebarentaalcultuur en helpen bij het direct herkennen van morele/theologische tegenstellingen.
+**Let op:** Deze conventies zijn NIET willekeurig. Ze zijn diepgeworteld in de gebarentaalcultuur en helpen bij het direct herkennen van morele/theologische tegenstellingen. De nuancering tussen het goddelijke (helemaal boven) en het menselijke (iets minder hoog) is theologisch betekenisvol.
+
+#### Twee Tijdslijnen: Doorleefde vs. Historische Tijd
+
+Er zijn **twee verschillende tijdslijnen** in gebarentaal, elk met hun eigen functie:
+
+**1. Tijdslijn achter-voor (doorleefde tijd):**
+- Voor persoonlijke ervaringen en de directe tijdsbeleving
+- Achter = wat achter je ligt (verleden)
+- Voor = wat voor je ligt (toekomst)
+- **Voorbeeld:** "Gisteren had ik pijn" (gebaar achter), "Morgen ga ik naar de dokter" (gebaar voor)
+
+**2. Tijdslijn links-rechts (historische tijd en leeftijd):**
+- Voor historische tijdperken, eeuwen, generaties
+- Links = vroeger, ouder
+- Rechts = later, jonger, heden
+- **Voorbeelden:**
+  - "In het Oude Testament" (links) vs. "In het Nieuwe Testament" (rechts)
+  - "Vroeger, in de tijd van de apostelen" (links) vs. "Nu, in onze tijd" (rechts)
+  - "De oudere generatie" (links) vs. "De jongere generatie" (rechts)
+  - "In de geschiedenis van Israël" (tijdlijn van links naar rechts door de eeuwen heen)
+
+**Praktische toepassing:**
+- Bij het vertellen van bijbelverhalen kun je de historische ontwikkeling van links naar rechts leggen
+- Het contrast tussen "toen" (links) en "nu" (rechts) wordt letterlijk ruimtelijk gemaakt
+- Dit is vooral handig bij preken die twee tijdperken vergelijken of de heilsgeschiedenis volgen
 
 ### 5.2 Classifiers (Verba van Beweging en Locatie)
 
@@ -391,6 +429,65 @@ Bij werkwoorden die vervoegd worden, wordt de begin- en eindlocatie toegevoegd:
 | Abstracte taal | Maak concreet en visueel | "De liefde overwint" → "Liefde is sterker" |
 | Ingebedde citaten | Maak directe rede | "Hij zei dat hij kwam" → "Hij zei: 'Ik kom'" |
 | Veel korte fragmenten | Voeg samen tot vloeiende eenheid | "De ster. Zij zien hem. De ster blijft staan." → "Ze zien de ster en hij blijft staan." |
+| **SOV-volgorde spanning (werkwoord achteraan)** | **Gebruik hulpwerkwoorden** | "Een deel van het zaad viel op de weg" → "Een beetje zaad was op de weg gevallen" (werkwoord komt nu natuurlijk achteraan in het Nederlands) |
+
+#### SOV-Strategie: De Hulpwerkwoord-Techniek
+
+NGT heeft een natuurlijke SOV-volgorde (Subject-Object-Verb): het werkwoord komt achteraan. In NmG is dit lastig omdat het Nederlands een SVO-volgorde heeft. De **hulpwerkwoord-strategie** lost dit elegant op:
+
+**Het principe:**
+Door een hulpwerkwoord te gebruiken (zijn, hebben, worden, gaan, etc.), komt het hoofdwerkwoord automatisch achteraan in correcte Nederlandse zinsbouw. Dit sluit beter aan bij de gebarentaal-verwachting zonder de Nederlandse grammatica te schenden.
+
+**Voorbeelden uit de praktijk:**
+
+| Situatie | Standaard Nederlands (SVO) | Met hulpwerkwoord (werkwoord achteraan) |
+|----------|---------------------------|----------------------------------------|
+| Eenvoudige actie | "Het zaad viel op de weg" | "Het zaad was op de weg gevallen" |
+| Beweging | "De wolf komt dichterbij" | "De wolf is dichterbij gekomen" |
+| Toestand | "Het brood ligt op tafel" | "Het brood is op tafel gelegd" / "Het brood heeft op tafel gelegen" |
+| Intentie | "Ik help je" | "Ik ga je helpen" / "Ik zal je helpen" |
+
+**Let op:**
+- Gebruik deze techniek niet overal - alleen waar het natuurlijk klinkt
+- Het Nederlands moet vloeiend blijven; vermijd geforceerde constructies
+- Vooral handig bij korte actiezinnen waar de SOV-volgorde de visuele helderheid vergroot
+
+#### Bijzinnen en Lokalisatie
+
+Bij bijzinnen met indirecte rede ontstaat vaak verwarring in NmG. De **lokalisatie-strategie** helpt om duidelijkheid te scheppen:
+
+**Het probleem:**
+Bij een zin als "De wolf zegt dat hij honger heeft" is het onduidelijk of "hij" naar de wolf verwijst of naar iemand anders.
+
+**Oplossing in NmG met lokalisatie:**
+1. Introduceer het onderwerp en lokaliseer het: "De wolf" (wijs naar een plek, bijv. links)
+2. Gebaar "zegt"
+3. Verwijs terug naar de gelokaliseerde plek: wijs naar links (= "hij" betekent nu expliciet "de wolf")
+4. Gebaar "heeft honger"
+5. **Resultaat:** "De wolf (lokaliseren) zegt hij (wijzen naar wolf-locatie) heeft honger"
+
+**Vergelijk met NGT:**
+In zuivere NGT zou de volgorde zijn: "Wolf (lokaliseren) zeggen honger hij (wijzen naar wolf)"
+- Het werkwoord "heeft" komt achteraan (SOV)
+- De subject-markering (wijzen) komt na het werkwoord
+
+**In NmG aanpak:**
+- Behoud de Nederlandse woordvolgorde voor de spraak
+- Gebruik lokalisatie en wijzen om referenten helder te maken
+- Het werkwoord kan vooraan blijven staan in het Nederlands ("zegt"), maar je kunt ook de hulpwerkwoord-techniek toepassen
+
+**Meer voorbeelden:**
+
+| Situatie | Nederlands (onduidelijk) | NmG met lokalisatie |
+|----------|-------------------------|---------------------|
+| Indirecte rede | "Maria zegt dat zij komt" | "Maria (lok. rechts) zegt zij (wijzen rechts) komt" |
+| Meerdere personen | "Petrus vraagt aan Johannes of hij meekomt" | "Petrus (lok. links) Johannes (lok. rechts) vraagt hij (wijzen rechts) meekomt" |
+| Complexe referentie | "De farizeeër dacht dat hij gelijk had" | "De farizeeër (lokaliseren) dacht hij (wijzen) had gelijk" |
+
+**Praktisch advies:**
+- Lokaliseer altijd personages voordat je naar ze verwijst
+- Wijs consequent naar dezelfde plek voor dezelfde persoon
+- Bij twijfel: maak directe rede van indirecte rede (zie eerdere sectie)
 
 ### 7.2 Woordkeuze
 
@@ -401,6 +498,31 @@ Bij werkwoorden die vervoegd worden, wordt de begin- en eindlocatie toegevoegd:
 | Idiomatische uitdrukkingen | Letterlijke betekenis | Gebaren zijn vaak letterlijk |
 | Dubbele ontkenningen | Eenvoudige ontkenning | Verwarring voorkomen |
 | Lange bijvoeglijke constructies | Korte, krachtige beschrijvingen | Tempo behouden |
+
+#### Specifieke Uitdaging: Het Voorzetsel "van"
+
+Het voorzetsel "van" is problematisch in NmG. **NGT heeft geen eigen gebaar voor "van"** en moet dit lenen van het Nederlandse woord. Dit levert een aantal uitdagingen op:
+
+**Het probleem:**
+- In NGT wordt bezit vaak uitgedrukt door possessieve gebaren (wijzen naar bezitter) of door ruimtelijke relaties
+- Het Nederlandse "van" dekt veel betekenissen: bezit, herkomst, materiaal, partitief, etc.
+- Bij het gebaren van "van" kan onduidelijkheid ontstaan over richting en bezitter
+
+**Voorbeeld uit de praktijk: "De Zoon van God"**
+- Nederlands: "De Zoon van God"
+- NmG-gebaar: ZOON VAN GOD
+- **Probleem:** Het gebaar VAN (geleend uit NmG) kan overkomen als "van mij" door de richting
+- **ASL-oplossing:** "Son God-his" (Zoon God-van-Hem) - possessief gebaar bij God
+- **Praktische NmG-aanpak:** Gebruik het Nederlandse "van" maar wees consistent in richting
+
+**Aanbevelingen:**
+1. **Bij bezitsrelaties:** Overweeg omschrijvingen of possessieve constructies
+   - "De kracht van God" → "Gods kracht" of "God heeft kracht"
+   - "Het rijk van de hemel" → "Het hemelse rijk" of "Hemelrijk"
+2. **Bij onvermijdelijk "van":** Wees consistent in gebaar-richting
+3. **Accepteer de beperking:** NmG is hier niet perfect; het Nederlands dicteert de structuur
+
+**Let op:** Dit is een **bekende beperking** van NmG die niet volledig op te lossen is. Wees je bewust van mogelijke onduidelijkheden en gebruik context om duidelijkheid te scheppen.
 
 #### KRITISCH: Behoud vergelijkingen en beeldspraak!
 
