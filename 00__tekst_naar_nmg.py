@@ -3,7 +3,11 @@
 Preek naar Nederlands met Gebaren (NmG) Conversie
 
 Dit script converteert een geschreven preektekst naar een versie die geoptimaliseerd is
-voor Nederlands met Gebaren (NmG). Het gebruikt Gemini 3 Flash om de conversie uit te voeren.
+voor Nederlands met Gebaren (NmG). Het gebruikt Gemini om de conversie uit te voeren.
+
+De tekst wordt standaard opgesplitst in batches op basis van witregels (paragrafen).
+Dit zorgt ervoor dat logisch samenhangende tekst samen wordt verwerkt.
+Gebruik --fixed-batch-size N voor de oude methode met vaste batch grootte.
 
 De output is een JSON bestand met per zin:
 - De originele tekst
@@ -19,7 +23,7 @@ MODEL_NAME = "gemini-3-pro-preview"
 MODEL_NAME_FALLBACK = "gemini-2.5-flash"
 
 # Batch configuratie
-BATCH_SIZE = 25  # Aantal zinnen per batch
+BATCH_SIZE = 25  # Fallback: aantal zinnen per batch (alleen als --fixed-batch-size)
 
 import os
 import sys
@@ -167,6 +171,42 @@ def split_preek_into_sentences(preek_tekst: str) -> list[dict]:
         })
 
     return sentences
+
+
+def split_preek_into_paragraphs(preek_tekst: str) -> list[list[dict]]:
+    """Splits de preektekst in paragrafen (gescheiden door witregels).
+
+    Elke paragraaf is een lijst van zinnen met doorlopende nummering.
+
+    Returns:
+        list van paragrafen, waarbij elke paragraaf een list van dicts is
+        met 'nummer' en 'tekst' keys
+    """
+    # Split op dubbele newlines of meerdere witregels
+    paragraphs_raw = re.split(r'\n\s*\n', preek_tekst.strip())
+
+    paragraphs = []
+    nummer = 0
+
+    for para_text in paragraphs_raw:
+        para_sentences = []
+        lines = para_text.strip().split('\n')
+
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+
+            nummer += 1
+            para_sentences.append({
+                'nummer': nummer,
+                'tekst': line
+            })
+
+        if para_sentences:
+            paragraphs.append(para_sentences)
+
+    return paragraphs
 
 
 def create_batch_prompt(prompt_template: str, glossen_lijst: str, sentences: list[dict], batch_start: int) -> str:
@@ -517,7 +557,8 @@ def run_batch_conversion(
     batch_size: int = BATCH_SIZE,
     model: str = None,
     output_dir: Path = None,
-    resume: bool = True
+    resume: bool = True,
+    paragraphs: list[list[dict]] = None
 ) -> tuple[dict, dict]:
     """Verwerk de preek in batches en voeg de resultaten samen.
 
@@ -525,17 +566,32 @@ def run_batch_conversion(
         client: De Gemini client
         prompt_template: De prompt template
         glossen_lijst: De lijst met beschikbare glossen
-        sentences: Alle zinnen uit de preek
-        batch_size: Aantal zinnen per batch
+        sentences: Alle zinnen uit de preek (voor verificatie)
+        batch_size: Aantal zinnen per batch (alleen bij fixed-size mode)
         model: Model om te gebruiken
         output_dir: Directory voor tussentijdse opslag
         resume: Hervat vanaf bestaande batches indien beschikbaar
+        paragraphs: Lijst van paragrafen (indien None, gebruik fixed batch_size)
 
     Returns:
         tuple van (samengevoegd resultaat, verificatie rapport)
     """
     total_sentences = len(sentences)
-    num_batches = (total_sentences + batch_size - 1) // batch_size
+
+    # Bepaal batches: paragraaf-gebaseerd of fixed-size
+    if paragraphs:
+        batches = paragraphs
+        num_batches = len(batches)
+        batch_mode = "paragraaf"
+    else:
+        # Fixed-size batches (oude methode)
+        num_batches = (total_sentences + batch_size - 1) // batch_size
+        batches = []
+        for i in range(num_batches):
+            start_idx = i * batch_size
+            end_idx = min(start_idx + batch_size, total_sentences)
+            batches.append(sentences[start_idx:end_idx])
+        batch_mode = f"fixed ({batch_size} zinnen)"
 
     # Setup batch directory voor tussentijdse opslag
     batch_dir = None
@@ -547,8 +603,11 @@ def run_batch_conversion(
     print(f"BATCH VERWERKING")
     print(f"{'=' * 60}")
     print(f"Totaal zinnen: {total_sentences}")
-    print(f"Batch grootte: {batch_size}")
+    print(f"Batch modus: {batch_mode}")
     print(f"Aantal batches: {num_batches}")
+    if paragraphs:
+        sizes = [len(p) for p in paragraphs]
+        print(f"Paragraaf groottes: min={min(sizes)}, max={max(sizes)}, gem={sum(sizes)/len(sizes):.1f}")
     if batch_dir:
         print(f"Tussentijdse opslag: {batch_dir}")
 
@@ -564,11 +623,7 @@ def run_batch_conversion(
             print(f"\n\033[94m→ Gevonden: {len(existing_batches)} bestaande batches ({len(already_processed)} zinnen)\033[0m")
             all_batch_results.extend(existing_batches)
 
-    for batch_num in range(num_batches):
-        start_idx = batch_num * batch_size
-        end_idx = min(start_idx + batch_size, total_sentences)
-        batch_sentences = sentences[start_idx:end_idx]
-
+    for batch_num, batch_sentences in enumerate(batches):
         # Check of deze batch al verwerkt is
         batch_sentence_nums = {s['nummer'] for s in batch_sentences}
         if batch_sentence_nums.issubset(already_processed):
@@ -576,12 +631,12 @@ def run_batch_conversion(
             continue
 
         print(f"\n{'─' * 50}")
-        print(f"Batch {batch_num + 1}/{num_batches} (zinnen {batch_sentences[0]['nummer']} - {batch_sentences[-1]['nummer']})")
+        print(f"Batch {batch_num + 1}/{num_batches} (zinnen {batch_sentences[0]['nummer']} - {batch_sentences[-1]['nummer']}, {len(batch_sentences)} zinnen)")
         print(f"{'─' * 50}")
 
         # Maak de batch-specifieke prompt
         batch_prompt = create_batch_prompt(
-            prompt_template, glossen_lijst, batch_sentences, start_idx + 1
+            prompt_template, glossen_lijst, batch_sentences, batch_sentences[0]['nummer']
         )
 
         # Voer de conversie uit voor deze batch
@@ -807,10 +862,11 @@ def main():
         help=f"Model om te gebruiken (default: {MODEL_NAME})"
     )
     parser.add_argument(
-        "--batch-size",
+        "--fixed-batch-size",
         type=int,
-        default=BATCH_SIZE,
-        help=f"Aantal zinnen per batch (default: {BATCH_SIZE})"
+        default=None,
+        metavar="N",
+        help=f"Gebruik vaste batch grootte van N zinnen i.p.v. paragraaf-gebaseerd"
     )
     parser.add_argument(
         "--no-retry",
@@ -863,10 +919,18 @@ def main():
     glossen_count = len(glossen_lijst.split("\n"))
     print(f"\033[92m✓ {glossen_count} unieke glossen geladen\033[0m")
 
-    # Split preek in zinnen
+    # Split preek in zinnen en paragrafen
     print("\nPreek analyseren...")
     sentences = split_preek_into_sentences(preek_tekst)
     print(f"\033[92m✓ {len(sentences)} zinnen geïdentificeerd\033[0m")
+
+    # Bepaal batch modus
+    if args.fixed_batch_size:
+        paragraphs = None
+        print(f"  Batch modus: vaste grootte ({args.fixed_batch_size} zinnen per batch)")
+    else:
+        paragraphs = split_preek_into_paragraphs(preek_tekst)
+        print(f"\033[92m✓ {len(paragraphs)} paragrafen geïdentificeerd (batch per paragraaf)\033[0m")
 
     # Initialiseer client
     print("\nGoogle GenAI Client initialiseren...")
@@ -883,10 +947,11 @@ def main():
         prompt_template=prompt_template,
         glossen_lijst=glossen_lijst,
         sentences=sentences,
-        batch_size=args.batch_size,
+        batch_size=args.fixed_batch_size or BATCH_SIZE,
         model=args.model,
         output_dir=batch_output_dir,
-        resume=not args.fresh
+        resume=not args.fresh,
+        paragraphs=paragraphs
     )
 
     # Toon verificatie

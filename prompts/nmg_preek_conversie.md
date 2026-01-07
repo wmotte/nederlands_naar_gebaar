@@ -479,23 +479,39 @@ NGT heeft een natuurlijke SOV-volgorde (Subject-Object-Verb): het werkwoord komt
 
 #### Wanneer zinnen COMBINEREN (niet alleen splitsen!)
 
-Te veel fragmentatie breekt het ritme. Combineer zinnen wanneer:
+**BELANGRIJK:** Te veel fragmentatie breekt het ritme en maakt de tekst onnatuurlijk. Dit is een veelvoorkomende fout!
+
+Combineer zinnen wanneer:
 
 1. **Ritmische herhaling**: "Je bent X. Je bent Y. Je bent Z." → "Je bent X, Y en Z."
 2. **Snelle opsomming**: Drie korte feiten → één zin met komma's
 3. **Causale keten**: "Het regent. Hij wordt nat." → "Het regent, dus hij wordt nat."
 4. **Parallelle structuur**: Behoud het ritme van de oorspronkelijke tekst
+5. **Poëtische drieslag**: Drie woorden/concepten die bij elkaar horen → NIET splitsen!
 
 **Voorbeelden van combineren:**
 
-| Te gefragmenteerd | Beter gecombineerd |
-|-------------------|-------------------|
+| Te gefragmenteerd (FOUT) | Beter gecombineerd (GOED) |
+|--------------------------|---------------------------|
 | "Je bent grond. Je bent stof. Je bent breekbaar." | "Je bent grond, stof, breekbaar." |
 | "Het is nacht. Het is koud. De herders waken." | "Het is een koude nacht. De herders waken." |
 | "Hij pakt de steen. Hij gooit de steen. De ruit breekt." | "Hij pakt een steen, gooit hem, en de ruit breekt." |
 | "Wij tellen onze schatten. We maken plannen. Nog efficiënter." | "Wij tellen onze schatten en maken plannen voor nog meer efficiëntie." |
+| "Jij bent een mens! Jij bent geen god!" | "Jij bent een mens, geen god!" |
 
-**Vuistregel:** Als 3+ opeenvolgende zinnen dezelfde structuur hebben, overweeg combinatie met komma's of puntkomma's. Het ritme van de oorspronkelijke tekst mag niet verloren gaan door overdreven fragmentatie.
+**Speciaal: Poëtische Drieslagen**
+
+Een poëtische drieslag is een retorisch krachtige opsomming van drie elementen. Deze MOETEN als één geheel blijven:
+
+| Poëtische drieslag | FOUT (gefragmenteerd) | GOED (behouden) |
+|--------------------|----------------------|-----------------|
+| "grond, stof, breekbaarheid" | "Je bent grond. Je bent stof. Je bent breekbaar." | "Je bent grond, stof, breekbaar." |
+| "delen, hopen, liefhebben" | "Mensen die delen. Mensen die hopen. Mensen die liefhebben." | "Mensen die delen, hopen en liefhebben." |
+| "tijd, aandacht, ziel" | "Onze tijd. Onze aandacht. Onze ziel." | "Onze tijd, aandacht en ziel." |
+
+**Vuistregel:** Als 3+ opeenvolgende zinnen dezelfde structuur hebben, MOET je overwegen om te combineren met komma's of puntkomma's. Het ritme van de oorspronkelijke tekst mag NIET verloren gaan door overdreven fragmentatie.
+
+**Zelfcontrole:** Lees de NmG-versie hardop. Klinkt het hakkerig of onnatuurlijk? Dan is er te veel gefragmenteerd.
 
 #### Bijzinnen en Lokalisatie
 
@@ -879,12 +895,36 @@ Wanneer een woord geen beschikbaar gebaar heeft, volg deze hiërarchie:
 
 #### Notatie in output
 
-Bij "glossen_niet_gevonden" ALTIJD de gekozen oplossing vermelden:
+**BELANGRIJK:** Bij woorden zonder directe glos:
+
+1. De **vervangende glossen** moeten in de "glossen"-array staan (niet alleen in toelichting!)
+2. Het **originele woord** komt in "glossen_niet_gevonden"
+3. De **oplossing** wordt uitgelegd in "toelichting"
+
+**Correcte notatie:**
 
 ```json
-"glossen_niet_gevonden": ["Distripark"],
-"toelichting": "Distripark vertaald naar DISTRIBUTIECENTRUM (beschikbaar gebaar). Alternatief: GROOT + HAL."
+{
+  "origineel": "De mensen werkten in het Distripark.",
+  "nmg_versie": "De mensen werkten in een groot distributiecentrum.",
+  "glossen": ["MENSEN", "WERKEN", "GROOT", "DISTRIBUTIECENTRUM"],
+  "glossen_niet_gevonden": ["Distripark"],
+  "toelichting": "Distripark heeft geen eigen gebaar. Vertaald naar GROOT + DISTRIBUTIECENTRUM."
+}
 ```
+
+**Fout (componenten ontbreken in glossen-array):**
+
+```json
+{
+  "glossen": ["MENSEN", "WERKEN"],
+  "glossen_niet_gevonden": ["Distripark"],
+  "toelichting": "Distripark vertaald naar DISTRIBUTIECENTRUM"
+}
+```
+↑ FOUT: De vervangende glos DISTRIBUTIECENTRUM ontbreekt in de glossen-array!
+
+**Vuistregel:** De glossen-array moet ALLE gebaren bevatten die de gebaarder moet maken, inclusief vervangende glossen voor woorden die niet direct beschikbaar zijn.
 
 ### 7.8 Temporele en Dramatische Overgangen
 
@@ -1060,6 +1100,33 @@ Metaforen in preken zijn vaak visueel sterk. Maak ze expliciet gebaarbaar door d
 | FOUT | "God geeft ons kracht als we zwak zijn." → Dit verliest de paradox "weerloze kracht" |
 | GOED | "Wij leggen onze macht af. Dan ontstaat Gods kracht. Die kracht is weerloos én sterk." |
 
+**Meer voorbeelden van paradoxen in preken (BEIDE kanten behouden!):**
+
+| Originele paradox | FOUT | GOED |
+|-------------------|------|------|
+| "Eerste worden de laatsten" | "Mensen wisselen van plek." | "Wie nu vooraan staat, komt achteraan. Wie nu achteraan staat, komt vooraan." |
+| "In sterven is leven" | "Na de dood komt leven." | "Wij sterven. Maar juist in dat sterven: leven. Beide tegelijk." |
+| "Arm zijn is rijkdom" | "Arme mensen zijn gelukkig." | "Zij hebben niets. Maar juist dát niets is hun rijkdom." |
+| "Door duisternis naar licht" | "Na donker komt licht." | "In de duisternis, midden daarin, begint het licht al." |
+| "Vrijheid in gebondenheid" | "Regels geven vrijheid." | "Gebonden zijn aan God. En juist daarin: vrij zijn. Beide waar." |
+| "Kracht in zwakheid" | "Zwakke mensen worden sterk." | "Zwak zijn. Precies daar komt kracht. Niet ondanks zwakheid, maar in de zwakheid." |
+
+**Strategie voor paradoxen:**
+
+1. **Benoem expliciet BEIDE kanten** - niet één kant met een knipoog naar de andere
+2. **Gebruik woorden als "én", "maar ook", "tegelijk"** - om de spanning zichtbaar te maken
+3. **Laat de spanning staan** - los de paradox NIET op
+4. **Gebruik ruimte voor contrast** - links en rechts in het gebarenruimte
+
+**Voorbeeld uitgewerkt met ruimtelijke instructie:**
+
+| Type | Tekst |
+|------|-------|
+| Origineel | "Wie zijn leven verliest, zal het vinden." |
+| FOUT | "Als je je leven opgeeft, krijg je een nieuw leven." → Dit is een oorzaak-gevolg, geen paradox! |
+| GOED | "Jij verliest je leven (links). Jij vindt je leven (rechts). Dezelfde persoon. Tegelijk." |
+| nmg_instructies | "Lokaliseer 'verliezen' links, 'vinden' rechts. Wijs naar dezelfde persoon (jezelf). Eindig met 'tegelijk' en breng beide handen naar het midden." |
+
 #### Woorden die beeldspraak markeren (NOOIT weglaten!)
 
 Deze woorden geven aan dat iets een vergelijking is, geen feit:
@@ -1072,6 +1139,38 @@ Deze woorden geven aan dat iets een vergelijking is, geen feit:
 
 **Vuistregel:** Als het origineel een vergelijking bevat, moet de NmG-versie ook duidelijk maken dat het een vergelijking is.
 
+#### Idiomen en Uitdrukkingen (NOOIT weglaten of afzwakken!)
+
+**KRITISCH PROBLEEM:** Idiomen worden vaak weggelaten of afgezwakt naar neutrale woorden. Dit is FOUT!
+
+Idiomen dragen emotionele lading en beeldkracht die BEHOUDEN moet blijven. Vertaal ze naar een visuele equivalent, maar verlies NOOIT de intensiteit.
+
+| Nederlands idioom | FOUT (weggelaten) | GOED (behouden) |
+|-------------------|-------------------|-----------------|
+| "tegen de klippen op" | "heel erg" | "vol kracht, ondanks alles" of "steeds verder, ook al is het moeilijk" |
+| "het water staat me aan de lippen" | "het is moeilijk" | "bijna verdrinken, net hoofd boven water" |
+| "op handen en voeten" | "heel hard" | "kruipend op de grond" |
+| "met de deur in huis vallen" | "direct" | "deur opengooien, binnenstormen, meteen zeggen" |
+| "het hart op de tong dragen" | "eerlijk zijn" | "hart laten zien, alles vertellen" |
+| "door het oog van de naald kruipen" | "net gelukt" | "bijna mis, naald, erdoor kruipen" |
+
+**Strategie voor idiomen in NmG:**
+
+1. **Identificeer het idioom** in de originele tekst
+2. **Bepaal de kern** van het beeld (wat ziet iemand voor zich?)
+3. **Maak het visueel** met beschrijvende woorden of de letterlijke handeling
+4. **Behoud de intensiteit** - een idioom is NOOIT "gewoon" of "veel"
+
+**Voorbeeld uitgewerkt:**
+
+| Type | Tekst |
+|------|-------|
+| Origineel | "De mensen zwoegden tegen de klippen op in dat land." |
+| FOUT | "De mensen werkten heel hard in dat land." → Verliest alle beeldkracht! |
+| GOED | "De mensen werkten. Steeds door, steeds verder. Het was moeilijk, maar ze gingen door. Zoals klimmen tegen een berg." |
+
+**Let op:** Een idioom weglaten is NOOIT acceptabel. Als je geen goede visuele vertaling vindt, gebruik dan de letterlijke handeling of beschrijf het beeld expliciet.
+
 #### Checklist betekenisbehoud
 
 Voor elke geherformuleerde zin, controleer:
@@ -1081,6 +1180,8 @@ Voor elke geherformuleerde zin, controleer:
 4. ☐ Zijn paradoxen intact (beide kanten behouden)?
 5. ☐ Is de theologische nuance behouden (God IS vs God GEEFT)?
 6. ☐ Zijn retorische vragen nog steeds vragen?
+7. ☐ Zijn idiomen vertaald naar visuele equivalenten (niet afgezwakt)?
+8. ☐ Is de emotionele intensiteit behouden (geen neutrale vervanging)?
 
 ### 8.4 Retorische Elementen
 
@@ -1232,9 +1333,9 @@ Dit helpt de gebaarder om consistentie te bewaren door de hele preek
 
 ### Vereisten voor _verificatie:
 
-De sectie `_verificatie` is een verplichte kwaliteitscontrole aan het einde van de output:
+De sectie `_verificatie` is een **VERPLICHTE** kwaliteitscontrole aan het einde van de output. **ALLE velden moeten worden ingevuld.**
 
-**Tellingen:**
+**Tellingen (VERPLICHT - alle velden invullen):**
 - `origineel_aantal_zinnen`: Hoeveel zinnen bevat de originele tekst?
 - `verwerkte_zinnen`: Hoeveel zinnen zijn daadwerkelijk geconverteerd?
 - `unieke_zinnummers_verwerkt`: Controle op duplicaten
@@ -1242,22 +1343,47 @@ De sectie `_verificatie` is een verplichte kwaliteitscontrole aan het einde van 
 - `compleet`: Boolean - zijn alle zinnen verwerkt?
 - `percentage_verwerkt`: Percentage van voltooiing
 
-**Inhoudelijke checks:**
-- `alle_personages_gelokaliseerd`: Zijn alle genoemde personen aan een locus toegewezen?
-- `god_rechtsboven_consistent`: Wordt God/het goddelijke consistent rechtsboven geplaatst?
-- `telhand_correct_toegepast`: Is de telhand alleen gebruikt waar passend?
-- `geen_betekenisverandering`: Zijn alle kernboodschappen intact?
-- `hypothetisch_vs_feitelijk_correct`: Is STEL alleen bij hypothetische situaties gebruikt?
-- `vergelijkingswoorden_behouden`: Zijn "alsof", "als", "lijkt op" behouden?
-- `jaartallen_correct_samengesteld`: Zijn jaartallen opgebouwd uit componenten?
+**Inhoudelijke checks (VERPLICHT - alle velden moeten boolean zijn):**
 
-**Mogelijke problemen:**
+```json
+"inhoudelijke_checks": {
+  "alle_personages_gelokaliseerd": true,
+  "god_rechtsboven_consistent": true,
+  "telhand_correct_toegepast": true,
+  "geen_betekenisverandering": true,
+  "hypothetisch_vs_feitelijk_correct": true,
+  "vergelijkingswoorden_behouden": true,
+  "jaartallen_correct_samengesteld": true,
+  "idiomen_en_uitdrukkingen_behouden": true,
+  "paradoxen_intact": true
+}
+```
+
+| Check | Wat controleren |
+|-------|-----------------|
+| `alle_personages_gelokaliseerd` | Zijn alle genoemde personen aan een locus toegewezen? |
+| `god_rechtsboven_consistent` | Wordt God/het goddelijke consistent rechtsboven geplaatst? |
+| `telhand_correct_toegepast` | Is de telhand alleen gebruikt waar passend (niet bij abstracte opsommingen)? |
+| `geen_betekenisverandering` | Zijn alle kernboodschappen intact? Geen woorden/zinsdelen weggelaten? |
+| `hypothetisch_vs_feitelijk_correct` | Is STEL alleen bij hypothetische situaties gebruikt? |
+| `vergelijkingswoorden_behouden` | Zijn "alsof", "als", "lijkt op" behouden? |
+| `jaartallen_correct_samengesteld` | Zijn jaartallen opgebouwd uit componenten (2026 → 2000+26)? |
+| `idiomen_en_uitdrukkingen_behouden` | Zijn idiomen omgezet naar NmG zonder betekenisverlies? |
+| `paradoxen_intact` | Zijn paradoxen ("weerloze kracht") met beide kanten behouden? |
+
+**Mogelijke problemen (VERPLICHT - altijd invullen, ook als leeg):**
 Lijst van specifieke zinnen waar problemen zijn geconstateerd, met uitleg:
 ```json
 "mogelijke_problemen": [
   "Zin 40: jaartal 2026 niet als glos beschikbaar, samengesteld uit 2000+26",
-  "Zin 15: 'Tyrus' heeft geen standaard gebaar, fingerspelling toegepast"
+  "Zin 15: 'Tyrus' heeft geen standaard gebaar, fingerspelling toegepast",
+  "Zin 27: idioom 'tegen de klippen op' omgezet naar 'heel erg' met verlies van beeldkracht"
 ]
+```
+
+**Als alle checks positief zijn en er geen problemen zijn:**
+```json
+"mogelijke_problemen": []
 ```
 
 ---
@@ -1392,17 +1518,19 @@ Analyseer de bovenstaande preektekst zin voor zin en converteer elke zin naar ee
 14. ☐ **Metaforen intact:** beeldspraak is nog steeds herkenbaar als beeldspraak
 15. ☐ **Theologische nuances behouden:** paradoxen, retorische vragen, metaforen
 16. ☐ De essentie en emotionele lading van de preek is behouden
+17. ☐ **Idiomen visueel vertaald:** niet afgezwakt naar neutrale woorden (bv. "tegen de klippen op" → NIET "heel erg")
+18. ☐ **Paradoxen intact:** BEIDE kanten expliciet benoemd, spanning niet opgelost
 
 **Visuele Ondersteuning:**
-17. ☐ Abstracte concepten zijn geconcretiseerd waar mogelijk
-18. ☐ **Telhand correct toegepast:** alleen bij opsommingen waar AANTAL significant is
-19. ☐ **Metaforen visueel vertaald:** componenten gesplitst maar ruimtelijk consistent
+19. ☐ Abstracte concepten zijn geconcretiseerd waar mogelijk
+20. ☐ **Telhand correct toegepast:** alleen bij opsommingen waar AANTAL significant is
+21. ☐ **Metaforen visueel vertaald:** componenten gesplitst maar ruimtelijk consistent
 
 **Getallen & Namen:**
-20. ☐ **Jaartallen correct samengesteld:** 2026 = 2000 + 26, niet als placeholder
-21. ☐ **Eigennamen opgelost:** omschrijving, componenten of vingerspelling toegepast
+22. ☐ **Jaartallen correct samengesteld:** 2026 = 2000 + 26, niet als placeholder
+23. ☐ **Eigennamen opgelost:** omschrijving, componenten of vingerspelling toegepast
 
 **Output & Verificatie:**
-22. ☐ De output is valide JSON
-23. ☐ **Verificatiesectie ingevuld:** alle inhoudelijke checks doorlopen
-24. ☐ **Mogelijke problemen gedocumenteerd:** afwijkingen of beperkingen eerlijk gemeld
+24. ☐ De output is valide JSON
+25. ☐ **Verificatiesectie ingevuld:** alle inhoudelijke checks doorlopen (ALLE velden boolean!)
+26. ☐ **Mogelijke problemen gedocumenteerd:** afwijkingen of beperkingen eerlijk gemeld
