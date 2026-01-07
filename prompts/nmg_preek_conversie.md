@@ -431,26 +431,71 @@ Bij werkwoorden die vervoegd worden, wordt de begin- en eindlocatie toegevoegd:
 | Veel korte fragmenten | Voeg samen tot vloeiende eenheid | "De ster. Zij zien hem. De ster blijft staan." → "Ze zien de ster en hij blijft staan." |
 | **SOV-volgorde spanning (werkwoord achteraan)** | **Gebruik hulpwerkwoorden** | "Een deel van het zaad viel op de weg" → "Een beetje zaad was op de weg gevallen" (werkwoord komt nu natuurlijk achteraan in het Nederlands) |
 
-#### SOV-Strategie: De Hulpwerkwoord-Techniek
+#### SOV-Strategie: Modale en Hulpwerkwoorden
 
-NGT heeft een natuurlijke SOV-volgorde (Subject-Object-Verb): het werkwoord komt achteraan. In NmG is dit lastig omdat het Nederlands een SVO-volgorde heeft. De **hulpwerkwoord-strategie** lost dit elegant op:
+NGT heeft een natuurlijke SOV-volgorde (Subject-Object-Verb): het werkwoord komt achteraan. In NmG is dit lastig omdat het Nederlands een SVO-volgorde heeft. Door **modale werkwoorden** en **hulpwerkwoorden** te gebruiken, komt het hoofdwerkwoord automatisch achteraan in correcte Nederlandse zinsbouw.
 
-**Het principe:**
-Door een hulpwerkwoord te gebruiken (zijn, hebben, worden, gaan, etc.), komt het hoofdwerkwoord automatisch achteraan in correcte Nederlandse zinsbouw. Dit sluit beter aan bij de gebarentaal-verwachting zonder de Nederlandse grammatica te schenden.
+**Systematisch overzicht van werkwoordtypen:**
 
-**Voorbeelden uit de praktijk:**
+| Type | Voorbeelden | Effect op zinsbouw |
+|------|-------------|-------------------|
+| **Tijdshulpwerkwoorden** | is, was, heeft, had + voltooid deelwoord | "Vuurwerk knalt" → "Vuurwerk is geknald" |
+| **Modale werkwoorden** | kunnen, mogen, willen, zullen, moeten | "We voelen het" → "We kunnen het voelen" |
+| **Aspectuele werkwoorden** | gaan, komen, blijven, beginnen, proberen | "Hij loopt" → "Hij gaat lopen" |
+| **Passief hulpwerkwoord** | worden + voltooid deelwoord | "Men breekt het" → "Het wordt gebroken" |
+
+**Uitgebreide voorbeelden uit de praktijk:**
 
 | Situatie | Standaard Nederlands (SVO) | Met hulpwerkwoord (werkwoord achteraan) |
 |----------|---------------------------|----------------------------------------|
 | Eenvoudige actie | "Het zaad viel op de weg" | "Het zaad was op de weg gevallen" |
 | Beweging | "De wolf komt dichterbij" | "De wolf is dichterbij gekomen" |
-| Toestand | "Het brood ligt op tafel" | "Het brood is op tafel gelegd" / "Het brood heeft op tafel gelegen" |
+| Toestand | "Het brood ligt op tafel" | "Het brood is op tafel gelegd" |
 | Intentie | "Ik help je" | "Ik ga je helpen" / "Ik zal je helpen" |
+| Mogelijkheid | "We voelen de pijn" | "We kunnen de pijn voelen" |
+| Verplichting | "Hij luistert naar God" | "Hij moet naar God luisteren" |
+| Wens | "Zij blijft bij hem" | "Zij wil bij hem blijven" |
+| Toestemming | "We verlaten de troon" | "We mogen de troon verlaten" |
 
-**Let op:**
-- Gebruik deze techniek niet overal - alleen waar het natuurlijk klinkt
-- Het Nederlands moet vloeiend blijven; vermijd geforceerde constructies
-- Vooral handig bij korte actiezinnen waar de SOV-volgorde de visuele helderheid vergroot
+**Wanneer WEL toepassen:**
+- Bij korte actiezinnen waar SOV de visuele helderheid vergroot
+- Bij climaxmomenten waar het werkwoord nadruk verdient
+- Bij beschrijvingen van voltooide handelingen
+- Wanneer het de ritmiek van de zin verbetert
+
+**Wanneer NIET toepassen:**
+- Als het geforceerd of onnatuurlijk klinkt
+- Bij directe rede (die moet natuurlijk blijven)
+- Bij korte uitroepen ("Twaalf miljoen!")
+- Wanneer de oorspronkelijke zinsbouw al vloeiend is
+
+**Uitgewerkt voorbeeld uit een preek:**
+
+| Origineel | FOUT (geforceerd) | GOED (natuurlijk) |
+|-----------|-------------------|-------------------|
+| "Boven de daken knalt vuurwerk." | "Boven de daken is vuurwerk aan het knallen geweest." | "Boven de daken is vuurwerk geknald." |
+| "We zitten op een troon." | "We zijn op een troon aan het zitten." | "We hebben ons op een troon gezet." of gewoon: "We zitten op een troon." |
+| "God wacht op ons." | "God is op ons aan het wachten geweest." | "God heeft op ons gewacht." of "God zal op ons wachten." |
+
+#### Wanneer zinnen COMBINEREN (niet alleen splitsen!)
+
+Te veel fragmentatie breekt het ritme. Combineer zinnen wanneer:
+
+1. **Ritmische herhaling**: "Je bent X. Je bent Y. Je bent Z." → "Je bent X, Y en Z."
+2. **Snelle opsomming**: Drie korte feiten → één zin met komma's
+3. **Causale keten**: "Het regent. Hij wordt nat." → "Het regent, dus hij wordt nat."
+4. **Parallelle structuur**: Behoud het ritme van de oorspronkelijke tekst
+
+**Voorbeelden van combineren:**
+
+| Te gefragmenteerd | Beter gecombineerd |
+|-------------------|-------------------|
+| "Je bent grond. Je bent stof. Je bent breekbaar." | "Je bent grond, stof, breekbaar." |
+| "Het is nacht. Het is koud. De herders waken." | "Het is een koude nacht. De herders waken." |
+| "Hij pakt de steen. Hij gooit de steen. De ruit breekt." | "Hij pakt een steen, gooit hem, en de ruit breekt." |
+| "Wij tellen onze schatten. We maken plannen. Nog efficiënter." | "Wij tellen onze schatten en maken plannen voor nog meer efficiëntie." |
+
+**Vuistregel:** Als 3+ opeenvolgende zinnen dezelfde structuur hebben, overweeg combinatie met komma's of puntkomma's. Het ritme van de oorspronkelijke tekst mag niet verloren gaan door overdreven fragmentatie.
 
 #### Bijzinnen en Lokalisatie
 
@@ -661,10 +706,29 @@ De telhand verandert alleen de STRUCTUUR, nooit de BETEKENIS. De kernboodschap m
 - "Goud, wierook en mirre"
   → "Drie geschenken: (1) goud, (2) wierook, (3) mirre."
 
-**Wanneer gebruiken:**
+**Wanneer WEL telhand gebruiken:**
 - Bij opsommingen van 2-5 punten
 - Bij herhalende structuren ("Hij is... Hij is... Hij is...")
 - Bij parallellie waar steeds hetzelfde woord terugkomt
+- Wanneer het AANTAL significant is voor de boodschap
+- Bij instructieve lijstjes: "Doe dit: eerst A, dan B, dan C"
+
+**Wanneer GEEN telhand gebruiken:**
+- **Poëtische drieslag**: "Je bent grond, stof, breekbaar" → ritme > structuur, geen nummering nodig
+- **Impliciete opsomming**: "We zien de hemel, de aarde, de mensen" → geen nummer cruciaal
+- **Retorische climax**: "Niet angst, maar moed!" → contrast > telling
+- **Korte lijstjes zonder nadruk op aantal**: "goud, wierook en mirre" kan ook zonder nummering
+
+**Voorbeelden: Telhand WEL vs NIET**
+
+| Origineel | Met telhand (WEL) | Zonder telhand (OOK GOED) |
+|-----------|-------------------|--------------------------|
+| "Er zijn drie redenen waarom..." | "Drie redenen: (1)... (2)... (3)..." | n.v.t. - telhand is hier passend |
+| "Hij is grond, stof, breekbaar" | n.v.t. - telhand past hier niet | "Hij is grond, stof, breekbaar." |
+| "God geeft genade, kracht en vrede" | "God geeft drie dingen: genade, kracht en vrede" | "God geeft genade, kracht en vrede" |
+| "Niet links, niet rechts, maar vooruit" | n.v.t. - dit is retoriek, geen opsomming | "Niet links, niet rechts, maar vooruit!" |
+
+**Vuistregel:** Gebruik telhand wanneer het AANTAL significant is, niet alleen wanneer er meerdere items zijn. Bij poëtische of retorische passages heeft ritme voorrang boven structuur.
 
 **Let op:** Controleer altijd of de kernboodschap (wie/wat/waarom) onveranderd blijft!
 
@@ -733,6 +797,150 @@ Jezus vraagt aan de vrouw: 'Geef mij water.' [WAT - interactie]"
 | "De herders hoorden engelen zingen in de velden bij Bethlehem." | "Bij Bethlehem zijn velden. Daar zijn herders met hun schapen. Het is nacht. Dan verschijnen engelen. De engelen zingen." |
 | "Zacheüs klom in een boom om Jezus te zien." | "Er is een weg. Langs die weg staat een boom. Zacheüs is klein. Hij klimt in die boom. Waarom? Jezus komt langs. Zacheüs wil Hem zien." |
 
+### 7.6 Getallen en Jaartallen
+
+Getallen en jaartallen vormen een specifieke uitdaging in NmG. Grote getallen moeten worden opgebouwd uit componenten.
+
+#### Jaartallen
+
+Jaartallen worden samengesteld uit losse getalgebaren:
+
+| Jaartal | Samenstelling in gebaren | Glossen-notatie |
+|---------|--------------------------|-----------------|
+| 2026 | TWEE-DUIZEND + ZES-EN-TWINTIG | ["2000", "26"] of ["TWEE-DUIZEND", "ZES-EN-TWINTIG"] |
+| 1945 | NEGENTIEN-HONDERD + VIJF-EN-VEERTIG | ["1900", "45"] of ["NEGENTIEN", "HONDERD", "VIJF-EN-VEERTIG"] |
+| 33 (na Christus) | DRIE-EN-DERTIG | ["33"] |
+
+**Praktische voorbeelden:**
+
+| Origineel | NmG-versie | Glossen |
+|-----------|------------|---------|
+| "Het is 31 december 2025." | "Het is eenendertig december tweeduizendvijfentwintig." | ["31", "DECEMBER", "2000", "25"] |
+| "In het jaar 70 na Christus..." | "In het jaar zeventig na Christus..." | ["JAAR", "70", "NA", "CHRISTUS"] |
+| "We gaan naar 2026." | "We gaan naar het jaar tweeduizendzesentwintig." | ["GAAN", "NAAR", "JAAR", "2000", "26"] |
+
+#### Grote getallen
+
+| Getal | Samenstelling | Visuele instructie |
+|-------|---------------|-------------------|
+| Miljoen | MILJOEN (vaak: M-hand met krachtige beweging) | Groot, breed gebaar |
+| Twaalf miljoen | TWAALF + MILJOEN | Achtereenvolgens, met nadruk |
+| Miljarden | MILJARD of DUIZEND + MILJOEN | Nog groter gebaar |
+
+**Voorbeeld uit preektekst:**
+- Origineel: "Twaalf miljoen mensen sterven in Soedan."
+- NmG: "In Soedan sterven twaalf miljoen mensen."
+- Glossen: ["SOEDAN", "STERVEN", "12", "MILJOEN", "MENSEN"]
+- Visuele instructie: Breed gebaar bij "miljoen" om de omvang te benadrukken
+
+#### Valkuil: Jaartallen als placeholder
+
+**FOUT:** Een jaartal noteren als willekeurig getal (bijv. "2012" als placeholder voor 2026)
+**GOED:** Altijd het correcte jaartal opbouwen uit beschikbare componenten
+
+### 7.7 Eigennamen en Onbekende Termen
+
+Wanneer een woord geen beschikbaar gebaar heeft, volg deze hiërarchie:
+
+#### 1. Omschrijving met beschikbare gebaren (eerste keuze)
+
+| Onbekend woord | Omschrijving | Glossen |
+|----------------|--------------|---------|
+| "Distripark" | Groot distributiecentrum | ["GROOT", "DISTRIBUTIECENTRUM"] of ["GROOT", "HAL", "OPSLAG"] |
+| "Technocratie" | Techniek heeft de macht | ["TECHNIEK", "MACHT"] of ["COMPUTER", "REGEREN"] |
+| "Algoritmen" | Computers die beslissen | ["COMPUTER", "BESLISSEN"] of ["COMPUTER", "REGELEN"] |
+| "Apathie" | Geen gevoel, koud hart | ["GEVOEL", "NIET"] of ["KOUD", "HART"] |
+
+#### 2. Plaatsnamen: Lokaliseren + beschrijven of spellen
+
+| Plaatsnaam | Strategie | Uitvoering |
+|------------|-----------|------------|
+| "Waddinxveen" | Lokaal bekend gebaar OF vingerspellen | WADDINXVEEN (indien beschikbaar) of ^W-A-D-D-I-N-X-V-E-E-N |
+| "Triangel" (wijk) | Omschrijven + spellen | WIJK + ^T-R-I-A-N-G-E-L |
+| "Oranjelaan" | Componenten combineren | STRAAT + ORANJE of LAAN + ORANJE |
+| "De Morgenster" (kerk) | Componenten combineren | KERK + MORGEN + STER |
+
+#### 3. Bijbelse plaatsnamen
+
+| Plaatsnaam | Strategie | Toelichting |
+|------------|-----------|-------------|
+| "Tyrus" | Vingerspellen: ^T-Y-R-U-S | Historische stad, geen standaard gebaar |
+| "Soedan" | SUDAN (indien beschikbaar) of vingerspellen | Actuele plaatsnaam |
+| "Jeruzalem" | JERUZALEM (standaard gebaar beschikbaar) | Veelgebruikt bijbels gebaar |
+| "Bethlehem" | BETHLEHEM (standaard gebaar beschikbaar) | Veelgebruikt bijbels gebaar |
+
+#### 4. Theologische termen
+
+| Term | Omschrijving | Glossen |
+|------|--------------|---------|
+| "Plaatsbekleder" | Plaatsvervanger, vertegenwoordiger van Jezus | ["PLAATSVERVANGER"] of ["PLAATSVERVANGER", "JEZUS"] |
+| "Mystiek" | Diep geloof, verborgen ervaring met God | ["GELOOF", "DIEP"] of ["ERVARING", "GOD", "VERBORGEN"] |
+| "Incarnatie" | God wordt mens | ["GOD", "WORDEN", "MENS"] |
+
+#### Notatie in output
+
+Bij "glossen_niet_gevonden" ALTIJD de gekozen oplossing vermelden:
+
+```json
+"glossen_niet_gevonden": ["Distripark"],
+"toelichting": "Distripark vertaald naar DISTRIBUTIECENTRUM (beschikbaar gebaar). Alternatief: GROOT + HAL."
+```
+
+### 7.8 Temporele en Dramatische Overgangen
+
+Preken bevatten vaak wendingen en overgangen die visueel gemarkeerd moeten worden.
+
+#### Types overgangen
+
+| Type overgang | Voorbeelden | Visuele markering |
+|---------------|-------------|-------------------|
+| **Contrast** | "Maar dan...", "Echter...", "Maar..." | Pauze + lichaamsdraai + gezichtswisseling |
+| **Tijdsprong** | "Later...", "Op dat moment...", "Toen..." | Hand beweegt naar nieuw tijdspunt op tijdslijn |
+| **Climax** | "En toen!", "Plotseling!", "Nu!" | Verhoogde intensiteit, grotere gebaren, hogere wenkbrauwen |
+| **Conclusie** | "Dus...", "Daarom...", "Zo is het" | Handen komen samen, afsluitende knik |
+| **Onderbreking** | "Maar wacht!", "Stop!", "Luister!" | Abrupte beweging, hand omhoog, alert gezicht |
+
+#### Voorbeelden uit preekteksten
+
+**Voorbeeld 1: Dramatische onderbreking**
+- Origineel: "En dan breekt Ezechiël in."
+- NmG: "Maar dan. Ezechiël breekt in."
+- Instructie: Harde pauze na "Maar dan". Lichaamshouding verandert van beschrijvend naar alert. Ezechiël komt "van links" (OT/verleden) het verhaal binnen.
+
+**Voorbeeld 2: Contrast tussen situaties**
+- Origineel: "Wij tellen onze schatten... maar in Soedan sterven miljoenen."
+- NmG: "Wij tellen onze schatten. Maar in Soedan? Daar sterven twaalf miljoen mensen."
+- Instructie: Bij "Wij" - neutrale houding. Bij "Maar" - pauze, lichaam draait. Bij "Soedan" - wijs naar links (ver weg), ernstig gezicht.
+
+**Voorbeeld 3: Vraag-antwoord als overgang**
+- Origineel: "Wat is onze zee? De wereldmarkt, de Cloud, de stroom van geld."
+- NmG: "Wat is onze zee? De wereldmarkt. De Cloud. De stroom van geld."
+- Instructie: Vragende wenkbrauwen bij "Wat is onze zee?" Pauze. Dan opsomming met knikjes.
+
+#### Tabel: Overgangssignalen en hun vertaling
+
+| Nederlands signaalwoord | Functie | NmG-instructie |
+|------------------------|---------|----------------|
+| "Maar" | Tegenstelling | Pauze, lichaamsdraai, contrasterende gezichtsuitdrukking |
+| "Want" | Verklaring | Lichte knik, "luister"-houding |
+| "Dus" | Conclusie | Handen samen, afsluitende beweging |
+| "Toen" | Tijdswisseling | Hand naar nieuw punt op tijdslijn |
+| "Plotseling" | Verrassing | Grote ogen, snelle beweging |
+| "Stel" | Hypothese | Denkende houding, vragende blik |
+| "Kijk" | Aandacht vestigen | Wijzen, blik richten |
+
+#### Combinatie van overgangen
+
+Bij complexe passages kunnen meerdere overgangen elkaar opvolgen:
+
+**Voorbeeld:**
+- Origineel: "We zitten op onze troon. Maar dan. Ezechiël spreekt. Hij zegt: 'Je bent geen god!'"
+- Analyse:
+  1. "We zitten op onze troon" → Beschrijving (neutraal)
+  2. "Maar dan" → Contrast + onderbreking (pauze, lichaamswisseling)
+  3. "Ezechiël spreekt" → Nieuw personage (lokaliseren links)
+  4. "Hij zegt: 'Je bent geen god!'" → Directe rede (mini-shift naar Ezechiël, streng gezicht)
+
 ---
 
 ## 8. Specifieke Aanwijzingen voor Preekteksten
@@ -765,18 +973,116 @@ Jezus vraagt aan de vrouw: 'Geef mij water.' [WAT - interactie]"
 - Maak ruimte voor classifiers bij reis-verhalen
 - Laat de bewegingsrichting corresponderen met de eerder ingerichte ruimte
 
-### 8.2 Theologische Begrippen
+### 8.2 Theologische Begrippen en Abstracte Concepten
 
-| Abstract begrip | Mogelijke concretisering |
-|-----------------|-------------------------|
-| Genade | Gift, cadeau, onverdiend krijgen |
-| Verlossing | Bevrijding, vrij maken, ketenen breken |
-| Zonde | Fout, verkeerd doen, afwijken van pad |
-| Geloof | Vertrouwen, vasthouden aan |
-| Hoop | Verwachten, uitzien naar, wachten op |
-| Heilige Geest | Adem, wind, kracht van God |
+#### Basisconcepten
 
-### 8.3 Retorische Elementen
+| Abstract begrip | Mogelijke concretisering | Visuele instructie |
+|-----------------|-------------------------|-------------------|
+| Genade | Gift, cadeau, onverdiend krijgen | Handen ontvangen iets van boven |
+| Verlossing | Bevrijding, vrij maken, ketenen breken | Polsen uit elkaar, opluchting |
+| Zonde | Fout, verkeerd doen, afwijken van pad | Afbuigen van rechte lijn |
+| Geloof | Vertrouwen, vasthouden aan | Handen grijpen vast, stabiel |
+| Hoop | Verwachten, uitzien naar, wachten op | Blik naar voren/boven, open houding |
+| Heilige Geest | Adem, wind, kracht van God | Beweging van boven naar beneden |
+
+#### Visuele Vertaling van Metaforen
+
+Metaforen in preken zijn vaak visueel sterk. Maak ze expliciet gebaarbaar door de componenten te splitsen:
+
+| Metafoor | Componenten | Visuele instructie |
+|----------|-------------|-------------------|
+| "Hart van glas" | HART + GLAS + KOUD | Wijs naar hart, vorm glazen bol met handen, huiver-beweging voor koud |
+| "De wereld aan onze voeten" | WERELD + LIGGEN + VOETEN + MACHT | Wereld laag plaatsen, neerbuigend kijken, machtshouding |
+| "Steen door de ruit gooien" | STEEN + PAKKEN + GOOIEN + GLAS + BREKEN | Volledige actiesequentie uitbeelden: oprapen, mikken, gooien, breken |
+| "Afdalen naar de modder" | NAAR-BENEDEN + GAAN + MODDER | Beweging van hoog naar laag met handen, vieze expressie bij modder |
+| "Zilveren ader door het land" | ZILVER + ADER + SNIJDEN + LAND | Kronkelende beweging door ruimte, glimmende expressie |
+| "Glazen toren" | GLAS + TOREN + HOOG | Opbouwen van toren met handen, transparant/breekbaar suggereren |
+| "Troon van macht" | TROON + ZITTEN + MACHT | Hoog zitten, arrogante houding |
+| "Kuil van lijden" | KUIL + LAAG + LIJDEN | Laag in ruimte, pijnlijke expressie |
+
+**Principe:** Splits de metafoor in gebaarbare componenten, maar behoud de samenhang door ruimtelijke consistentie (alles op dezelfde locus).
+
+#### Voorbeelden uit de praktijk
+
+**Voorbeeld 1: Complexe metafoor**
+- Origineel: "Onze harten zijn van glas geworden, koud en ondoordringbaar."
+- NmG: "Ons hart is van glas geworden. Koud. Dicht."
+- Glossen: ["HART", "GLAS", "WORDEN", "KOUD", "DICHT"]
+- Instructie: Wijs naar eigen hart. Vorm glazen bol. Huiver bij "koud". Sluit hand voor borst bij "dicht".
+
+**Voorbeeld 2: Ruimtelijke metafoor**
+- Origineel: "We zitten op onze eigen troon van logistieke perfectie."
+- NmG: "We zitten op een troon. Alles is perfect geregeld."
+- Instructie: Troon HOOG plaatsen (arrogantie). Zelfvoldane expressie.
+
+**Voorbeeld 3: Contrast-metafoor**
+- Origineel: "Jezus staat niet op de troon. Hij staat in de kuil."
+- NmG: "Jezus staat niet op die troon. Hij staat beneden in de kuil."
+- Instructie: Troon HOOG aanwijzen (en hoofdschudden). Kuil LAAG aanwijzen. Jezus in de kuil plaatsen.
+
+### 8.3 Betekenisbehoud bij Herformulering
+
+**KRITISCH:** Bij het herformuleren voor NmG mag de theologische of retorische betekenis NOOIT veranderen.
+
+#### Theologie-gevoelige constructies
+
+| Type uitspraak | Risico | Oplossing |
+|----------------|--------|-----------|
+| "God IS X" (metafoor) | Letterlijk interpreteren | Behoud de metafoor, maar maak visueel |
+| "X is als Y" (vergelijking) | "Alsof/als" weglaten | ALTIJD "LIJKEN-OP" of "ALS" behouden |
+| Paradoxen | Vereenvoudigen tot één kant | BEIDE kanten behouden |
+| Retorische vragen | Antwoord invullen | Vraag laten staan, met vragende expressie |
+
+#### Voorbeelden van FOUTE vs GOEDE herformulering
+
+**Voorbeeld 1: Metafoor behouden**
+
+| Type | Tekst |
+|------|-------|
+| Origineel | "God is de pijn die wij voelen wanneer onze illusie van controle uiteenspat." |
+| FOUT | "We voelen God in pijn." → Dit verliest de diepere betekenis |
+| GOED | "Wanneer voelen we God? Als onze controle kapotgaat. Dan voelen wij pijn. Dáár is God." |
+
+**Voorbeeld 2: Vergelijking behouden**
+
+| Type | Tekst |
+|------|-------|
+| Origineel | "De profeet roept, alsof hij op een dijk staat." |
+| FOUT | "De profeet staat op een dijk. Hij roept." → Dit is nu een feit, geen beeldspraak! |
+| GOED | "De profeet roept. Het is alsof hij op een dijk staat, tegen de wind in." |
+
+**Voorbeeld 3: Paradox behouden**
+
+| Type | Tekst |
+|------|-------|
+| Origineel | "God is de weerloze kracht die ontstaat wanneer wij onze macht afleggen." |
+| FOUT | "God geeft ons kracht als we zwak zijn." → Dit verliest de paradox "weerloze kracht" |
+| GOED | "Wij leggen onze macht af. Dan ontstaat Gods kracht. Die kracht is weerloos én sterk." |
+
+#### Woorden die beeldspraak markeren (NOOIT weglaten!)
+
+Deze woorden geven aan dat iets een vergelijking is, geen feit:
+- **"alsof"** - "Het is alsof de hemel opengaat"
+- **"als"** (vergelijkend) - "Hij is als een herder"
+- **"lijkt op"** - "Dit lijkt op een wonder"
+- **"het is net"** - "Het is net of je vliegt"
+- **"zo... als"** - "Zo wit als sneeuw"
+- **"een soort"** - "Een soort thuiskomen"
+
+**Vuistregel:** Als het origineel een vergelijking bevat, moet de NmG-versie ook duidelijk maken dat het een vergelijking is.
+
+#### Checklist betekenisbehoud
+
+Voor elke geherformuleerde zin, controleer:
+1. ☐ Is de KERNBOODSCHAP identiek gebleven?
+2. ☐ Zijn metaforen nog steeds herkenbaar als metaforen?
+3. ☐ Zijn vergelijkingswoorden (alsof, als, lijkt op) behouden?
+4. ☐ Zijn paradoxen intact (beide kanten behouden)?
+5. ☐ Is de theologische nuance behouden (God IS vs God GEEFT)?
+6. ☐ Zijn retorische vragen nog steeds vragen?
+
+### 8.4 Retorische Elementen
 
 **Parallellie:**
 Behoud de structuur maar maak korter:
@@ -863,7 +1169,27 @@ Je MOET je antwoord geven als valide JSON in exact het volgende format:
   "algemene_adviezen": [
     "Algemeen advies 1 voor de hele preek",
     "Algemeen advies 2 voor de hele preek"
-  ]
+  ],
+  "_verificatie": {
+    "origineel_aantal_zinnen": 52,
+    "verwerkte_zinnen": 52,
+    "unieke_zinnummers_verwerkt": 52,
+    "ontbrekende_zinnummers": [],
+    "compleet": true,
+    "percentage_verwerkt": 100.0,
+    "inhoudelijke_checks": {
+      "alle_personages_gelokaliseerd": true,
+      "god_rechtsboven_consistent": true,
+      "telhand_correct_toegepast": true,
+      "geen_betekenisverandering": true,
+      "hypothetisch_vs_feitelijk_correct": true,
+      "vergelijkingswoorden_behouden": true,
+      "jaartallen_correct_samengesteld": true
+    },
+    "mogelijke_problemen": [
+      "Zin X: [beschrijving van probleem indien van toepassing]"
+    ]
+  }
 }
 ```
 
@@ -903,6 +1229,36 @@ De sectie `ruimtelijke_opbouw` geeft een totaaloverzicht van hoe de ruimte is in
 - **Linksonder (↙)**: Duivel, hel, de boze, het kwade, zonde, duisternis
 
 Dit helpt de gebaarder om consistentie te bewaren door de hele preek
+
+### Vereisten voor _verificatie:
+
+De sectie `_verificatie` is een verplichte kwaliteitscontrole aan het einde van de output:
+
+**Tellingen:**
+- `origineel_aantal_zinnen`: Hoeveel zinnen bevat de originele tekst?
+- `verwerkte_zinnen`: Hoeveel zinnen zijn daadwerkelijk geconverteerd?
+- `unieke_zinnummers_verwerkt`: Controle op duplicaten
+- `ontbrekende_zinnummers`: Lijst van zinnummers die ontbreken
+- `compleet`: Boolean - zijn alle zinnen verwerkt?
+- `percentage_verwerkt`: Percentage van voltooiing
+
+**Inhoudelijke checks:**
+- `alle_personages_gelokaliseerd`: Zijn alle genoemde personen aan een locus toegewezen?
+- `god_rechtsboven_consistent`: Wordt God/het goddelijke consistent rechtsboven geplaatst?
+- `telhand_correct_toegepast`: Is de telhand alleen gebruikt waar passend?
+- `geen_betekenisverandering`: Zijn alle kernboodschappen intact?
+- `hypothetisch_vs_feitelijk_correct`: Is STEL alleen bij hypothetische situaties gebruikt?
+- `vergelijkingswoorden_behouden`: Zijn "alsof", "als", "lijkt op" behouden?
+- `jaartallen_correct_samengesteld`: Zijn jaartallen opgebouwd uit componenten?
+
+**Mogelijke problemen:**
+Lijst van specifieke zinnen waar problemen zijn geconstateerd, met uitleg:
+```json
+"mogelijke_problemen": [
+  "Zin 40: jaartal 2026 niet als glos beschikbaar, samengesteld uit 2000+26",
+  "Zin 15: 'Tyrus' heeft geen standaard gebaar, fingerspelling toegepast"
+]
+```
 
 ---
 
@@ -1013,18 +1369,40 @@ Analyseer de bovenstaande preektekst zin voor zin en converteer elke zin naar ee
 
 **Checklist:**
 
+**Inhoud & Volledigheid:**
 1. ☐ **ALLE informatie uit de originele tekst is verwerkt** - niets is weggelaten (zinnen mogen samengevoegd zijn, maar alle inhoud moet behouden blijven)
 2. ☐ De NmG-versie is grammaticaal correct Nederlands dat uitgesproken kan worden
 3. ☐ De glossen komen uit de beschikbare lijst (controleer spelling)
-4. ☐ Niet-gevonden glossen zijn eerlijk gerapporteerd
-5. ☐ De instructies zijn specifiek en uitvoerbaar voor een gebaarder
-6. ☐ Personages zijn consistent gelokaliseerd door de hele preek
-7. ☐ **Conventionele plaatsingen zijn correct:** God/hemel rechtsboven (↗), kwaad/duivel linksonder (↙)
+4. ☐ Niet-gevonden glossen zijn eerlijk gerapporteerd met gekozen oplossing (omschrijving/vingerspelling)
+
+**Ruimtelijke Inrichting:**
+5. ☐ Personages zijn consistent gelokaliseerd door de hele preek
+6. ☐ **Conventionele plaatsingen zijn correct:** God/hemel rechtsboven (↗), kwaad/duivel linksonder (↙)
+7. ☐ De instructies zijn specifiek en uitvoerbaar voor een gebaarder
+
+**Structuur & Grammatica:**
 8. ☐ **Discourse markers correct gebruikt:** STEL alleen bij hypothetische situaties (NIET bij feitelijke beschrijvingen)
-9. ☐ **Narratieve structuur WAAR → WIE → WAT is overwogen** bij complexe verhaalscènes (niet verplicht bij alle zinnen)
+9. ☐ **Narratieve structuur WAAR → WIE → WAT is overwogen** bij complexe verhaalscènes
 10. ☐ Directe rede is gebruikt waar dit de visuele communicatie versterkt
-11. ☐ Abstracte concepten zijn geconcretiseerd waar mogelijk
-12. ☐ De essentie en emotionele lading van de preek is behouden
-13. ☐ De output is valide JSON
-14. ☐ **Zinslengte is flexibel:** korte zinnen waar nuttig, langere zinnen waar natuurlijker
-15. ☐ **Telhand gebruikt bij opsommingen:** bij 2+ punten, nummering i.p.v. herhaling van woorden
+11. ☐ **Zinslengte is flexibel:** korte zinnen waar nuttig, langere zinnen waar natuurlijker (niet overdreven fragmenteren!)
+12. ☐ **Modale werkwoorden overwogen:** kunnen, mogen, willen etc. voor SOV-volgorde waar natuurlijk
+
+**Betekenisbehoud:**
+13. ☐ **Vergelijkingswoorden behouden:** "alsof", "als", "lijkt op" zijn NIET weggelaten
+14. ☐ **Metaforen intact:** beeldspraak is nog steeds herkenbaar als beeldspraak
+15. ☐ **Theologische nuances behouden:** paradoxen, retorische vragen, metaforen
+16. ☐ De essentie en emotionele lading van de preek is behouden
+
+**Visuele Ondersteuning:**
+17. ☐ Abstracte concepten zijn geconcretiseerd waar mogelijk
+18. ☐ **Telhand correct toegepast:** alleen bij opsommingen waar AANTAL significant is
+19. ☐ **Metaforen visueel vertaald:** componenten gesplitst maar ruimtelijk consistent
+
+**Getallen & Namen:**
+20. ☐ **Jaartallen correct samengesteld:** 2026 = 2000 + 26, niet als placeholder
+21. ☐ **Eigennamen opgelost:** omschrijving, componenten of vingerspelling toegepast
+
+**Output & Verificatie:**
+22. ☐ De output is valide JSON
+23. ☐ **Verificatiesectie ingevuld:** alle inhoudelijke checks doorlopen
+24. ☐ **Mogelijke problemen gedocumenteerd:** afwijkingen of beperkingen eerlijk gemeld
