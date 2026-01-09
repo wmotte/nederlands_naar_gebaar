@@ -162,19 +162,3 @@ Bij default worden bestaande batches hergebruikt. Gebruik `--fresh` om opnieuw t
 
 W.M. Otte (w.m.otte@umcutrecht.nl)
 
-## Licentie
-
-[Voeg hier je licentie toe]
-
-## Veranderingslog
-
-### Versie 2.0 (Januari 2025)
-- Batch processing toegevoegd
-- Resume/retry functionaliteit
-- Verificatie systeem
-- Verbeterde foutafhandeling
-- Dual output (JSON + Markdown)
-
-### Versie 1.0
-- Initiële versie
-- Basis NmG conversie
